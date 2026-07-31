@@ -303,7 +303,7 @@ export default function Home() {
                 <span className="material-symbols-outlined text-secondary text-3xl">call</span>
                 <div>
                   <p className="text-xs font-bold text-secondary uppercase tracking-widest">Call Us</p>
-                  <p className="text-lg font-semibold whitespace-nowrap">+91 72591 26666</p>
+                  <p className="text-lg font-semibold whitespace-nowrap">+91 77604 91666</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
