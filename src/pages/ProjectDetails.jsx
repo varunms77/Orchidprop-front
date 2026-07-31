@@ -13,7 +13,7 @@ const projectsData = {
     videoImage: "/projects/wild_woods.jpg",
     videoUrl: "https://player.cloudinary.com/embed/?cloud_name=dwoxzre9m&public_id=Wild_woods_xwwobv",
     desc: "Wildwoods represents the luxury of seclusion, a residential plots development by Orchid Properties. Nestled in a landscape defined by century-old trees and rolling greenery, this project offers high-value residential layout plots for your legacy piece of land. The community is meticulously planned to ensure that every plot enjoys natural boundary and breathtaking views.",
-    approval: "RERA Approved",
+    approval: "HDUDA Approved",
     sizes: "1200 - 4000 sqft",
     amenities: [
       { icon: "road", label: "Wide Bitumen Roads", desc: "40ft and 30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
@@ -40,7 +40,7 @@ const projectsData = {
     heroImage: "https://lh3.googleusercontent.com/aida-public/AB6AXuD6zKyoQyFG8SQQai4C6bRwe6POYKzxTez5NF6SMpqvA6uJgumt3V1nmfWKkCH30snEFVAIiC5uK4Y8m3Szr-5twxssrd3H_hdy69-4n1AR8EzmvjbvsWT2wUkRnAT8v-s3ee4qSd0IuCxx2_sF89Gq4w2NtFJ9KEKb6XDmwcW4WCCpPTnPRs5bZZRHlY2_kYUdERL5cYl7_B4D05poArIBzt3wpRmX8WIqRFP_ww4WZT9mKOSnn7OZravNnbbW7h-SRZ4",
     videoImage: "https://lh3.googleusercontent.com/aida-public/AB6AXuAyzts4jBllCyEFzi-hNkk0mUL1ahIeDyYNlt9Gr6EtAPeOHbnjIMykn6OSSNPf8edDeM_B1Om6fC8-ARWeV8jB5MAJ7DFOfGEWyV7t7tbBLgw7Ch9uhJxs9b14yegeauc8qBYI_HkGFuiXWVtYcw7o3KzbMsbCZ1kkoDNaERjtARLYqVs634g1V-Kl6KB7X-S1jofEgxUwupHJ_RPQu-kZvO1K7RtSyj3l_ChXjXa4VoN99ZJ8cVGOmA",
     desc: "Hans Garden offers a blend of residential and commercial plots designed for those who seek a balanced lifestyle. With premium infrastructure and a strategic location, it represents a golden investment opportunity for individuals who value both serenity and connectivity.",
-    approval: "DTCP / HNTDA",
+    approval: "HDUDA",
     sizes: "1200 - 4000 sqft",
     amenities: [
       { icon: "road", label: "Wide Bitumen Roads", desc: "40ft and 30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
@@ -67,7 +67,7 @@ const projectsData = {
     heroImage: "/projects/sidaroodha.jpg",
     videoImage: "/projects/sidaroodha.jpg",
     desc: "Siddharoodha Layout seamlessly integrates traditional neighborhood values with modern urban convenience. It provides a peaceful community living environment accompanied by state-of-the-art infrastructure. Excellent connectivity combined with green buffer zones offers the perfect backdrop for constructing your dream home.",
-    approval: "DTCP Approved",
+    approval: "HDUDA Approved",
     sizes: "1200 - 3000 sqft",
     amenities: [
       { icon: "road", label: "Wide Bitumen Roads", desc: "40ft and 30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
@@ -95,7 +95,7 @@ const projectsData = {
     videoImage: "/projects/balaji_layout.jpg",
     videoUrl: "/projects/balaji_layout.mp4",
     desc: "Balaji Layout is meticulously planned to represent comfort, security, and legacy. Set in a fast-appreciating corridor, this project has been built to exceed standard specifications. With dedicated services and top-grade concrete details, this neighborhood guarantees a reliable and robust investment for you and your family.",
-    approval: "RERA Approved",
+    approval: "HDUDA Approved",
     sizes: "1200 - 2400 sqft",
     amenities: [
       { icon: "road", label: "Wide Bitumen Roads", desc: "40ft and 30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
@@ -122,7 +122,7 @@ const projectsData = {
     heroImage: "/projects/balaji_nagar.jpg",
     videoImage: "/projects/balaji_nagar.jpg",
     desc: "Balaji Nagar is a premium layout offering strategic connectivity, eco-conscious planning, and a ready-to-construct setting. Surrounded by fully developed neighborhoods, it provides a safe, active, and vibrant community space for children and seniors alike.",
-    approval: "DTCP Approved",
+    approval: "HDUDA Approved",
     sizes: "1200 - 1500 sqft",
     amenities: [
       { icon: "road", label: "Wide Bitumen Roads", desc: "40ft and 30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
@@ -149,7 +149,7 @@ const projectsData = {
     heroImage: "/projects/kanakgiri_park.jpg",
     videoImage: "/projects/kanakgiri_park.jpg",
     desc: "Kanakgiri Park combines natural serenity with contemporary urban planning. Located directly adjacent to a lush green buffer reserve, this layout offers unmatched air quality, scenic views, and extensive outdoor parks for a healthy and active lifestyle.",
-    approval: "RERA / DTCP Approved",
+    approval: "HDUDA Approved",
     sizes: "1200 - 4000 sqft",
     amenities: [
       { icon: "road", label: "Wide Bitumen Roads", desc: "40ft and 30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
@@ -176,7 +176,7 @@ const projectsData = {
     heroImage: "/projects/mahalaxmi.jpg",
     videoImage: "/projects/mahalaxmi.jpg",
     desc: "Mahalaxmi Layout is our highly anticipated gated community project. Built to accommodate advanced green energy integrations and modern structural systems, it is the premier selection for individuals looking forward to long-term luxury living.",
-    approval: "Under Approval Process",
+    approval: "HDUDA Approval ",
     sizes: "1200 - 3600 sqft",
     amenities: [
       { icon: "road", label: "Wide Bitumen Roads", desc: "40ft and 30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
@@ -225,7 +225,7 @@ export default function ProjectDetails() {
           <p className="font-label-caps text-label-caps text-primary mb-4 tracking-[0.2em] uppercase">{project.tagline}</p>
           <h1 className="font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface mb-6 drop-shadow-sm">{project.name}</h1>
           <p className="font-body-lg text-body-lg max-w-2xl mx-auto text-on-surface-variant leading-relaxed">
-            Premium Residential &amp; Commercial Property designed for the luxury of space and the legacy of lifestyle.
+            Premium Residential Layout designed for peaceful living, open spaces, and a timeless lifestyle.
           </p>
           <div className="mt-12 flex flex-col md:flex-row items-center justify-center gap-6">
             <a href="#layouts" className="bg-primary text-on-primary px-10 py-4 rounded-full font-label-caps text-label-caps whisper-shadow hover:scale-105 transition-all">Explore Layouts</a>
