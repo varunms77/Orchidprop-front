@@ -11,7 +11,7 @@ const projectsData = {
     logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuArUTMnFtDdnxLMVKqPloUmp0ksXvbIYeT9m6gO25cjSduv9nPMgCUItwc0hBnO8NqXW00M0PoaADrbzgLyXGkOgphM9sx9HWJrugvnLigSR1b-lV0VxBzF7TgGIuUW-HT0eTwXE749BtjG7nl1fG1rp1Ejg_NFOoXs5DLoyFk6FFAFFAFFAFFAFFAFFAFFAFFAFFAFFAFFAFFAFFAFFAFFAFFAFFAFFA",
     heroImage: "/projects/wild_woods.jpg",
     videoImage: "/projects/wild_woods.jpg",
-    videoUrl: "/projects/wild_woods.mov",
+    videoUrl: "https://player.cloudinary.com/embed/?cloud_name=dwoxzre9m&public_id=Wild_woods_xwwobv",
     desc: "Wildwoods represents the luxury of seclusion, a residential plots development by Orchid Properties. Nestled in a landscape defined by century-old trees and rolling greenery, this project offers high-value residential layout plots for your legacy piece of land. The community is meticulously planned to ensure that every plot enjoys natural boundary and breathtaking views.",
     approval: "RERA Approved",
     sizes: "1200 - 4000 sqft",
@@ -246,7 +246,11 @@ export default function ProjectDetails() {
         <div className="relative w-full aspect-video rounded-[20px] overflow-hidden whisper-shadow glass-card group cursor-pointer">
           {project.videoUrl ? (
             isVideoPlaying ? (
-              <video src={project.videoUrl} controls autoPlay className="w-full h-full object-cover" />
+              project.videoUrl.includes('embed') ? (
+                <iframe src={project.videoUrl} className="w-full h-full" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowFullScreen frameBorder="0" />
+              ) : (
+                <video src={project.videoUrl} controls autoPlay className="w-full h-full object-cover" />
+              )
             ) : (
               <div onClick={() => setIsVideoPlaying(true)} className="relative w-full h-full">
                 <img className="w-full h-full object-cover" alt={`${project.name} Cinematic Aerial View`} src={project.videoImage} />
