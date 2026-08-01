@@ -84,7 +84,8 @@ const projectsData = {
     mapUrl: "https://maps.google.com/maps?q=Siddharoodha+layout,+Orchid+Properties,+near+BD+Patil+Convention+Hall,+Sampige+Nagar,+Dharwad,+Karnataka+580007&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
       "/projects/sidaroodha.jpg",
-      "/projects/sidaroodha.jpg"
+      "/projects/sida11.jpg",
+      "/projects/sida22.jpg"
     ]
   },
   balaji_layout: {
@@ -193,7 +194,8 @@ const projectsData = {
     mapUrl: "https://maps.google.com/maps?q=Mahalaxmi+Layout,+Orchid+Properties,+opp.+Kelageri+Lake,+Kelgeri,+Dharwad,+Karnataka+580007&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
       "/projects/mahalaxmi.jpg",
-      "/projects/mahalaxmi.jpg"
+      "/projects/mahalaxmi11.jpg",
+      "/projects/mahalaxmi22.jpg"
     ]
   }
 };
@@ -297,7 +299,34 @@ export default function ProjectDetails() {
         </div>
       </section>
 
-      {/* 4. Amenities Bento Grid */}
+      {/* 4. Visual Perspective Gallery */}
+      <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-section-gap reveal">
+        <div className="mb-12">
+          <h2 className="font-headline-md text-headline-md text-primary mb-4">Visual Perspective</h2>
+          <div className="w-20 h-1 bg-primary-fixed-dim rounded-full"></div>
+        </div>
+        <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+          {(project.gallery.length > 0 ? [
+            ...project.gallery,
+            ...project.gallery,
+            ...project.gallery
+          ].slice(0, Math.max(project.gallery.length * 2, 4)) : [project.heroImage, project.videoImage, project.heroImage, project.videoImage]).map((img, idx) => (
+            <div
+              key={idx}
+              className={`overflow-hidden rounded-2xl whisper-shadow group break-inside-avoid mb-6 ${idx % 3 === 1 ? 'mt-8' : ''}`}
+            >
+              <img
+                src={img}
+                alt={`${project.name} Visual ${idx + 1}`}
+                className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-700 ease-in-out"
+                style={{ aspectRatio: idx % 3 === 0 ? '4/3' : idx % 3 === 1 ? '3/4' : '4/3' }}
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* 5. Amenities Bento Grid */}
       <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-section-gap">
         <div className="text-center mb-20 reveal">
           <h2 className="font-headline-md text-headline-md text-primary">Signature Amenities</h2>
@@ -343,7 +372,7 @@ export default function ProjectDetails() {
         </div>
       </section>
 
-      {/* 5. Location Section */}
+      {/* 6. Location Section */}
       <section className="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto overflow-hidden" id="location">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <div className="space-y-10 reveal">
@@ -381,7 +410,7 @@ export default function ProjectDetails() {
         </div>
       </section>
 
-      {/* 6. CTA Section */}
+      {/* 7. CTA Section */}
       <section className="py-section-gap relative overflow-hidden">
         <div className="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
           <div className="glass-card p-12 md:p-20 rounded-[40px] shadow-2xl relative overflow-hidden reveal">
