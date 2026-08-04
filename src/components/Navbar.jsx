@@ -127,6 +127,15 @@ export default function Navbar() {
 
           <Link
             to="/contact"
+            className={`font-label-md text-label-md uppercase tracking-widest hover:text-secondary transition-colors duration-300 ${
+              location.pathname === '/contact' ? 'text-secondary' : 'text-on-surface'
+            }`}
+          >
+            Contact Us
+          </Link>
+
+          <Link
+            to="/contact"
             className="bg-secondary text-on-secondary px-6 py-2.5 rounded-full font-label-md text-label-md uppercase tracking-widest hover:shadow-lg hover:shadow-secondary/20 transition-all duration-300 transform hover:-translate-y-0.5"
           >
             Enquire Now
@@ -202,6 +211,14 @@ export default function Navbar() {
               </div>
             )}
           </div>
+
+          <Link
+            to="/contact"
+            className="block font-label-md text-label-md uppercase tracking-widest text-on-surface hover:text-secondary transition-colors py-2"
+            onClick={() => setMobileOpen(false)}
+          >
+            Contact Us
+          </Link>
 
           <Link
             to="/contact"
