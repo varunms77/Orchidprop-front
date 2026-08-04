@@ -114,7 +114,7 @@ const projectsData = {
       { icon: "school", label: "Education Hub", desc: "IIT DHARWAD (10 mins) " }
     ],
     brochureUrl: "/projects/Balaji_Layout.pdf",
-    mapUrl: "https://maps.google.com/maps?q=Balaji+Layout+%7C+Orchid+Properties,+Chikkamalligwad,+Dharwad,+Hiremalligawad,+Karnataka+580007&t=&z=14&ie=UTF8&iwloc=&output=embed",
+    mapUrl: "https://maps.google.com/maps?q=Balaji+Layout,+Chikkamalligwad,+Dharwad,+Hiremalligawad,+Karnataka+580007&t=&z=16&ie=UTF8&iwloc=&output=embed",
     gallery: [
       "/projects/bal1.jpeg",
       "/projects/bal2.jpeg",
