@@ -113,7 +113,7 @@ const projectsData = {
       { icon: "account_balance", label: "University", desc: "Agriculture University(5 mins)" },
       { icon: "school", label: "Education Hub", desc: "IIT DHARWAD (10 mins) " }
     ],
-    brochureUrl: "/projects/Balaji%20Layout_Printready.pdf.pdf",
+    brochureUrl: "/projects/Balaji%20Layout.pdf",
     mapUrl: "https://maps.google.com/maps?q=Balaji+Layout+%7C+Orchid+Properties,+Chikkamalligwad,+Dharwad,+Hiremalligawad,+Karnataka+580007&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
       "/projects/balaji_layout.jpg",
