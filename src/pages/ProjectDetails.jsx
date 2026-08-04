@@ -109,7 +109,7 @@ const projectsData = {
       { icon: "wb_twilight", label: "Street Lights", desc: "High-efficiency LED street lights ensuring security and elegance during nighttime." }
     ],
     proximity: [
-      { icon: "commute", label: "Connectivity", desc: "National Highway (2 mins)" }, ,
+      { icon: "commute", label: "Connectivity", desc: "National Highway (2 mins)" },
       { icon: "account_balance", label: "University", desc: "Agriculture University(5 mins)" },
       { icon: "school", label: "Education Hub", desc: "IIT DHARWAD (10 mins) " }
     ],
