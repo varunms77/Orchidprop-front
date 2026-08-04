@@ -23,9 +23,9 @@ const projectsData = {
       { icon: "celebration", label: "Party Lawn", desc: "A beautifully landscaped open party lawn, perfect for family celebrations, festive occasions, and memorable outdoor events" }
     ],
     proximity: [
-      { icon: "school", label: "Education Hub", desc: "Global International School (5 mins) • St. Mary's Academy (8 mins)" },
-      { icon: "medical_services", label: "Medical Care", desc: "City Super Specialty Hospital (10 mins) • HealthCare Clinic (4 mins)" },
-      { icon: "commute", label: "Connectivity", desc: "Main Bus Terminal (12 mins) • Metro Station Phase II (15 mins)" }
+      { icon: "commute", label: "Connectivity", desc: "Dharwad City (20 mins)" },
+      { icon: "commute", label: "Connectivity", desc: "Jayanagar - Srinagar (15 mins) " },
+      { icon: "commute", label: "Connectivity", desc: "Hubli Airport (25 mins)" },
     ],
     mapUrl: "https://maps.google.com/maps?q=Wild+Woods,+Murakatti,+Dharwad+-+Haliyal+Rd,+Dharwad,+Karnataka+580118&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
