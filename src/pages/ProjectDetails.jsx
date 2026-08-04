@@ -6,7 +6,7 @@ import { useRevealOnScroll, useNavbarScroll } from '../hooks/useScrollEffects';
 
 const projectsData = {
   wild_woods: {
-    name: "Wildwoods",
+    name: "Wild Woods",
     tagline: "Escape to Your Own Sanctuary",
     logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuArUTMnFtDdnxLMVKqPloUmp0ksXvbIYeT9m6gO25cjSduv9nPMgCUItwc0hBnO8NqXW00M0PoaADrbzgLyXGkOgphM9sx9HWJrugvnLigSR1b-lV0VxBzF7TgGIuUW-HT0eTwXE749BtjG7nl1fG1rp1Ejg_NFOoXs5DLoyFk6FFAFFAFFAFFAFFAFFAFFAFFAFFAFFAFFAFFAFFAFFAFFAFFAFFAFFA",
     heroImage: "/projects/wild_woods.jpg",

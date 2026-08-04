@@ -41,7 +41,7 @@ const projects = [
     link: "/projects/balaji_nagar"
   },
   {
-    name: "Wildwoods",
+    name: "Wild Woods",
     desc: "Eco-conscious living nestled within pristine natural surroundings.",
     badge: "Farm Villa",
     logo: "/projects/wild_woods.png",

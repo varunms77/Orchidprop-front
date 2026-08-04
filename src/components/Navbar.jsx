@@ -13,7 +13,7 @@ const projectsList = {
     { name: "Hans Garden", id: "hans_garden" }
   ],
   farmVilla: [
-    { name: "Wildwoods", id: "wild_woods" }
+    { name: "Wild Woods", id: "wild_woods" }
   ]
 };
 
