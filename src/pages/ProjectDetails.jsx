@@ -14,7 +14,7 @@ const projectsData = {
     videoUrl: "https://player.cloudinary.com/embed/?cloud_name=dwoxzre9m&public_id=Wild_woods_xwwobv",
     desc: "Wildwoods represents the luxury of seclusion, a residential plots development by Orchid Properties. Nestled in a landscape defined by century-old trees and rolling greenery, this project offers high-value residential layout plots for your legacy piece of land. The community is meticulously planned to ensure that every plot enjoys natural boundary and breathtaking views.",
     approval: "HDUDA Approved",
-    sizes: "1200 - 4000 sqft",
+    sizes: "5-10  Guntas",
     amenities: [
       { icon: "road", label: "Wide Bitumen Roads", desc: "40ft and 30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
       { icon: "water_drop", label: "24/7 Water Supply", desc: "Dedicated overhead water tanks and deep borewells ensuring uninterrupted supply to every plot." },
@@ -30,9 +30,9 @@ const projectsData = {
     mapUrl: "https://maps.google.com/maps?q=Wild+Woods,+Murakatti,+Dharwad+-+Haliyal+Rd,+Dharwad,+Karnataka+580118&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
       "/projects/wild_woods.jpg",
+      "/projects/wild3.jpg",
       "/projects/wild1.jpg",
       "/projects/wild2.jpg",
-      "/projects/wild3.jpg",
       "/projects/wild4.jpg"
     ]
   },
