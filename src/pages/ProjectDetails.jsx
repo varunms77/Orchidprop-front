@@ -235,9 +235,9 @@ export default function ProjectDetails() {
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background/60"></div>
         </div>
         <div className="relative z-10 text-center px-margin-mobile md:px-0 reveal active">
-          <p className="font-label-caps text-label-caps text-primary mb-4 tracking-[0.2em] uppercase">{project.tagline}</p>
-          <h1 className="font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface mb-6 drop-shadow-sm">{project.name}</h1>
-          <p className="font-body-lg text-body-lg max-w-2xl mx-auto text-on-surface-variant leading-relaxed">
+          <p className="font-label-caps text-label-caps text-white mb-4 tracking-[0.2em] uppercase">{project.tagline}</p>
+          <h1 className="font-display-lg text-display-lg-mobile md:text-display-lg text-white mb-6 drop-shadow-sm">{project.name}</h1>
+          <p className="font-body-lg text-body-lg max-w-2xl mx-auto text-white/80 leading-relaxed">
             Premium Residential Layout designed for peaceful living, open spaces, and a timeless lifestyle.
           </p>
           <div className="mt-12 flex flex-col md:flex-row items-center justify-center gap-6">
