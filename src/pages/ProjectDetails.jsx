@@ -28,6 +28,7 @@ const projectsData = {
       { icon: "commute", label: "Connectivity", desc: "Hubli Airport (25 mins)" },
     ],
     mapUrl: "https://maps.google.com/maps?q=Wild+Woods,+Murakatti,+Dharwad+-+Haliyal+Rd,+Dharwad,+Karnataka+580118&t=&z=14&ie=UTF8&iwloc=&output=embed",
+    heroDesc: "Luxury Farm Villas crafted for serene living, expansive open spaces, and a perfect blend of nature and comfort.",
     gallery: [
       "/projects/wild_woods.jpg",
       "/projects/wild3.jpg",
@@ -238,7 +239,7 @@ export default function ProjectDetails() {
           <p className="font-label-caps text-label-caps text-white mb-4 tracking-[0.2em] uppercase">{project.tagline}</p>
           <h1 className="font-display-lg text-display-lg-mobile md:text-display-lg text-white mb-6 drop-shadow-sm">{project.name}</h1>
           <p className="font-body-lg text-body-lg max-w-2xl mx-auto text-white/80 leading-relaxed">
-            Premium Residential Layout designed for peaceful living, open spaces, and a timeless lifestyle.
+            {project.heroDesc || "Premium Residential Layout designed for peaceful living, open spaces, and a timeless lifestyle."}
           </p>
           <div className="mt-12 flex flex-col md:flex-row items-center justify-center gap-6">
             <a href="#layouts" className="bg-primary text-on-primary px-10 py-4 rounded-full font-label-caps text-label-caps whisper-shadow hover:scale-105 transition-all">Explore Layouts</a>
