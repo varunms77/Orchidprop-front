@@ -16,11 +16,11 @@ const projectsData = {
     approval: "HDUDA Approved",
     sizes: "5-10  Guntas",
     amenities: [
-      { icon: "road", label: "Wide Bitumen Roads", desc: "40ft and 30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
-      { icon: "water_drop", label: "24/7 Water Supply", desc: "Dedicated overhead water tanks and deep borewells ensuring uninterrupted supply to every plot." },
-      { icon: "bolt", label: "Electricity", desc: "Underground cabling for an obstruction-free sky and consistent power distribution." },
-      { icon: "nature_people", label: "Green Parks", desc: "Lush landscaped parks and children's play areas integrated into the layout design." },
-      { icon: "wb_twilight", label: "Street Lights", desc: "High-efficiency LED street lights ensuring security and elegance during nighttime." }
+      { icon: "road", label: "Wide Bitumen Roads", desc: "30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
+      { icon: "pool", label: "Swimming Pool", desc: "Enjoy a beautifully designed swimming pool, perfect for relaxation, fitness, and quality time with family in a peaceful community setting." },
+      { icon: "fence", label: "Gated Community", desc: "Secure gated community with controlled access, 24/7 safety, and a peaceful environment for comfortable family living." },
+      { icon: "holiday_village", label: "Club House", desc: "A modern clubhouse offering elegant spaces for social gatherings, celebrations, indoor recreation, and community events" },
+      { icon: "celebration", label: "Party Lawn", desc: "A beautifully landscaped open party lawn, perfect for family celebrations, festive occasions, and memorable outdoor events" }
     ],
     proximity: [
       { icon: "school", label: "Education Hub", desc: "Global International School (5 mins) • St. Mary's Academy (8 mins)" },
