@@ -8,12 +8,12 @@ const projectsList = {
     { name: "Balaji Layout", id: "balaji_layout" },
     { name: "Kanakgiri Park", id: "kanakgiri_park" },
     { name: "Balaji Nagar", id: "balaji_nagar" },
-    { name: "Wildwoods", id: "wild_woods" }
-  ],
-  signatureLayouts: [
     { name: "Mahalaxmi Layout", id: "mahalaxmi_layout" },
     { name: "Siddharoodha Layout", id: "siddharoodha_layout" },
     { name: "Hans Garden", id: "hans_garden" }
+  ],
+  farmVilla: [
+    { name: "Wildwoods", id: "wild_woods" }
   ]
 };
 
@@ -105,10 +105,10 @@ export default function Navbar() {
                   {/* Column 2 */}
                   <div className="pl-4">
                     <h4 className="font-label-md text-secondary text-sm font-bold uppercase tracking-wider mb-4 pb-2 border-b border-secondary/20">
-                      Signature Layouts
+                      Farm Villa
                     </h4>
                     <div className="space-y-3">
-                      {projectsList.signatureLayouts.map((proj) => (
+                      {projectsList.farmVilla.map((proj) => (
                         <Link
                           key={proj.id}
                           to={`/projects/${proj.id}`}
@@ -194,8 +194,8 @@ export default function Navbar() {
                     {proj.name}
                   </Link>
                 ))}
-                <p className="text-xs font-bold text-secondary uppercase tracking-wider pt-2">Signature Layouts</p>
-                {projectsList.signatureLayouts.map((proj) => (
+                <p className="text-xs font-bold text-secondary uppercase tracking-wider pt-2">Farm Villa</p>
+                {projectsList.farmVilla.map((proj) => (
                   <Link
                     key={proj.id}
                     to={`/projects/${proj.id}`}
