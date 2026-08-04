@@ -30,7 +30,10 @@ const projectsData = {
     mapUrl: "https://maps.google.com/maps?q=Wild+Woods,+Murakatti,+Dharwad+-+Haliyal+Rd,+Dharwad,+Karnataka+580118&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
       "/projects/wild_woods.jpg",
-      "/projects/wild_woods.jpg"
+      "/projects/wild1.jpg",
+      "/projects/wild2.jpg",
+      "/projects/wild3.jpg",
+      "/projects/wild4.jpg"
     ]
   },
   hans_garden: {
@@ -167,7 +170,12 @@ const projectsData = {
     mapUrl: "https://maps.google.com/maps?q=Kanakagiri+Park,+Orchid+Properties,+Tapovan+Nagar,+Kyarkoppa,+Dharwad,+Karnataka+580003&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
       "/projects/kanakgiri_park.jpg",
-      "/projects/kanakgiri_park.jpg"
+      "/projects/kanak1.jpg",
+      "/projects/kanak2.jpg",
+      "/projects/kanak3.jpg",
+      "/projects/kanak4.jpg",
+      "/projects/kanak5.jpg"
+
     ]
   },
   mahalaxmi_layout: {
@@ -194,8 +202,6 @@ const projectsData = {
     mapUrl: "https://maps.google.com/maps?q=Mahalaxmi+Layout,+Orchid+Properties,+opp.+Kelageri+Lake,+Kelgeri,+Dharwad,+Karnataka+580007&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
       "/projects/mahalaxmi.jpg",
-      "/projects/mahalaxmi11.jpg",
-      "/projects/mahalaxmi22.jpg"
     ]
   }
 };
@@ -306,11 +312,7 @@ export default function ProjectDetails() {
           <div className="w-20 h-1 bg-primary-fixed-dim rounded-full"></div>
         </div>
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
-          {(project.gallery.length > 0 ? [
-            ...project.gallery,
-            ...project.gallery,
-            ...project.gallery
-          ].slice(0, Math.max(project.gallery.length * 2, 4)) : [project.heroImage, project.videoImage, project.heroImage, project.videoImage]).map((img, idx) => (
+          {(project.gallery && project.gallery.length > 0 ? project.gallery : [project.heroImage, project.videoImage]).map((img, idx) => (
             <div
               key={idx}
               className={`overflow-hidden rounded-2xl whisper-shadow group break-inside-avoid mb-6 ${idx % 3 === 1 ? 'mt-8' : ''}`}
