@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const LOGO_URL = "/logo.png";
+const LOGO_URL = "/lg1.png";
 
 export default function Footer() {
   return (

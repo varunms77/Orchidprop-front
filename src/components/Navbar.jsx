@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-const LOGO_URL = "/logo.png";
+const LOGO_URL = "/lg1.png";
 
 const projectsList = {
   residentialLayouts: [

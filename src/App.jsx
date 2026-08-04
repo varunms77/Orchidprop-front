@@ -54,7 +54,7 @@ function App() {
               {/* Pulsing halo background shadow */}
               <div className="absolute inset-0 bg-white/5 rounded-full blur-xl scale-125 animate-pulse"></div>
               <img
-                src="/logo.png"
+                src="/lg1.png"
                 alt="Orchid Properties Logo"
                 className="relative h-20 w-auto object-contain brightness-0 invert filter drop-shadow-[0_0_15px_rgba(255,255,255,0.35)]"
                 style={{ animation: 'float 4s infinite ease-in-out' }}
