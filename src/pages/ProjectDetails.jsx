@@ -140,9 +140,10 @@ const projectsData = {
       { icon: "wb_twilight", label: "Street Lights", desc: "High-efficiency LED street lights ensuring security and elegance during nighttime." }
     ],
     proximity: [
-      { icon: "school", label: "Education Hub", desc: "Tenth Planet School (5 mins) • University campus (10 mins)" },
-      { icon: "medical_services", label: "Medical Care", desc: "Apex Multi-Specialty (7 mins) • Pharmacy (2 mins)" },
-      { icon: "commute", label: "Connectivity", desc: "Main Bus Terminal (12 mins) • Metro Station Phase II (15 mins)" }
+      { icon: "commute", label: "Connectivity", desc: "National Highway(1 min)" },
+      { icon: "school", label: "Education Hub", desc: "Karnataka State Higher Education Academy(3 mins)" },
+      { icon: "account_balance", label: "University", desc: "Karnataka University(7 mins)" }
+
     ],
     mapUrl: "https://maps.google.com/maps?q=Balaji+Nagar,+Orchid+Properties,+Dharwad+-+Haliyal+Rd,+Hubballi,+Karnataka+580007&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
