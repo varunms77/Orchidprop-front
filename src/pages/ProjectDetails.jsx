@@ -167,9 +167,9 @@ const projectsData = {
       { icon: "wb_twilight", label: "Street Lights", desc: "High-efficiency LED street lights ensuring security and elegance during nighttime." }
     ],
     proximity: [
-      { icon: "school", label: "Education Hub", desc: "Delhi Public School (10 mins) • Orchid Kids (3 mins)" },
-      { icon: "medical_services", label: "Medical Care", desc: "Narayana Health (15 mins) • Fortis Clinic (8 mins)" },
-      { icon: "commute", label: "Connectivity", desc: "Main Bus Terminal (12 mins) • Metro Station Phase II (15 mins)" }
+      { icon: "commute", label: "Connectivity", desc: "National Highway (2 mins)" },
+      { icon: "school", label: "Education Hub", desc: "Classic International School (5 mins)" },
+      { icon: "account_balance", label: "University", desc: "Karnataka University(7 mins)" },
     ],
     mapUrl: "https://maps.google.com/maps?q=Kanakagiri+Park,+Orchid+Properties,+Tapovan+Nagar,+Kyarkoppa,+Dharwad,+Karnataka+580003&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
