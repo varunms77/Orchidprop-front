@@ -109,9 +109,9 @@ const projectsData = {
       { icon: "wb_twilight", label: "Street Lights", desc: "High-efficiency LED street lights ensuring security and elegance during nighttime." }
     ],
     proximity: [
-      { icon: "school", label: "Education Hub", desc: "Orchid English School (3 mins) • High School Complex (8 mins)" },
-      { icon: "medical_services", label: "Medical Care", desc: "District Hospital (12 mins) • Community Clinic (5 mins)" },
-      { icon: "commute", label: "Connectivity", desc: "State Highway 14 (2 mins) • Hubli Bypass (10 mins)" }
+      { icon: "commute", label: "Connectivity", desc: "National Highway (2 mins)" },
+      { icon: "school", label: "Education Hub", desc: "IIT DHARWAD (10 mins) " },
+      { icon: "account_balance", label: "University", desc: "Agriculture University(5 mins)" },
     ],
     mapUrl: "https://maps.google.com/maps?q=Balaji+Layout+%7C+Orchid+Properties,+Chikkamalligwad,+Dharwad,+Hiremalligawad,+Karnataka+580007&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
