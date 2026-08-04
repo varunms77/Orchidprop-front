@@ -116,8 +116,11 @@ const projectsData = {
     brochureUrl: "/projects/Balaji_Layout.pdf",
     mapUrl: "https://maps.google.com/maps?q=Balaji+Layout+%7C+Orchid+Properties,+Chikkamalligwad,+Dharwad,+Hiremalligawad,+Karnataka+580007&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
-      "/projects/balaji_layout.jpg",
-      "/projects/balaji_layout.jpg"
+      "/projects/bal1.jpeg",
+      "/projects/bal2.jpeg",
+      "/projects/bal3.jpeg",
+      "/projects/bal4.jpeg",
+      "/projects/bal5.jpeg"
     ]
   },
   balaji_nagar: {
