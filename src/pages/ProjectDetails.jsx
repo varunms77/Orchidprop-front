@@ -431,9 +431,9 @@ export default function ProjectDetails() {
                       <span className="material-symbols-outlined">download</span> Download Brochure
                     </a>
                   ) : (
-                    <a href="/projects/Balaji Layout_Printready.pdf.pdf" download className="bg-primary text-on-primary px-8 py-4 rounded-full font-bold shadow-lg shadow-primary/30 hover:shadow-xl transition-all flex items-center gap-2">
-                      <span className="material-symbols-outlined">download</span> Download Brochure
-                    </a>
+                    <button className="bg-primary text-on-primary px-8 py-4 rounded-full font-bold shadow-lg shadow-primary/30 hover:shadow-xl transition-all flex items-center gap-2">
+                      <span className="material-symbols-outlined">event_available</span> Book Site Visit
+                    </button>
                   )}
                   <Link to="/contact" className="bg-white border-2 border-primary text-primary px-8 py-4 rounded-full font-bold hover:bg-primary/5 transition-all flex items-center gap-2">
                     <span className="material-symbols-outlined">call</span> Call Expert
