@@ -102,17 +102,18 @@ const projectsData = {
     approval: "HDUDA Approved",
     sizes: "1200 - 2400 sqft",
     amenities: [
-      { icon: "road", label: "Wide Bitumen Roads", desc: "40ft and 30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
+      { icon: "road", label: "Wide Bitumen Roads", desc: "30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
       { icon: "water_drop", label: "24/7 Water Supply", desc: "Dedicated overhead water tanks and deep borewells ensuring uninterrupted supply to every plot." },
       { icon: "bolt", label: "Electricity", desc: "Underground cabling for an obstruction-free sky and consistent power distribution." },
       { icon: "nature_people", label: "Green Parks", desc: "Lush landscaped parks and children's play areas integrated into the layout design." },
       { icon: "wb_twilight", label: "Street Lights", desc: "High-efficiency LED street lights ensuring security and elegance during nighttime." }
     ],
     proximity: [
-      { icon: "commute", label: "Connectivity", desc: "National Highway (2 mins)" },
-      { icon: "school", label: "Education Hub", desc: "IIT DHARWAD (10 mins) " },
+      { icon: "commute", label: "Connectivity", desc: "National Highway (2 mins)" }, ,
       { icon: "account_balance", label: "University", desc: "Agriculture University(5 mins)" },
+      { icon: "school", label: "Education Hub", desc: "IIT DHARWAD (10 mins) " }
     ],
+    brochureUrl: "/projects/Balaji Layout_Printready.pdf.pdf",
     mapUrl: "https://maps.google.com/maps?q=Balaji+Layout+%7C+Orchid+Properties,+Chikkamalligwad,+Dharwad,+Hiremalligawad,+Karnataka+580007&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
       "/projects/balaji_layout.jpg",
@@ -425,9 +426,15 @@ export default function ProjectDetails() {
                   Limited plots remaining in Phase 1. Schedule a private site visit today and experience the tranquility firsthand.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <button className="bg-primary text-on-primary px-8 py-4 rounded-full font-bold shadow-lg shadow-primary/30 hover:shadow-xl transition-all flex items-center gap-2">
-                    <span className="material-symbols-outlined">event_available</span> Book Site Visit
-                  </button>
+                  {project.brochureUrl ? (
+                    <a href={project.brochureUrl} download className="bg-primary text-on-primary px-8 py-4 rounded-full font-bold shadow-lg shadow-primary/30 hover:shadow-xl transition-all flex items-center gap-2">
+                      <span className="material-symbols-outlined">download</span> Download Brochure
+                    </a>
+                  ) : (
+                    <a href="/projects/Balaji Layout_Printready.pdf.pdf" download className="bg-primary text-on-primary px-8 py-4 rounded-full font-bold shadow-lg shadow-primary/30 hover:shadow-xl transition-all flex items-center gap-2">
+                      <span className="material-symbols-outlined">download</span> Download Brochure
+                    </a>
+                  )}
                   <Link to="/contact" className="bg-white border-2 border-primary text-primary px-8 py-4 rounded-full font-bold hover:bg-primary/5 transition-all flex items-center gap-2">
                     <span className="material-symbols-outlined">call</span> Call Expert
                   </Link>
