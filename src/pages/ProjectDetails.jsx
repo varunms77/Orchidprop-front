@@ -70,7 +70,7 @@ const projectsData = {
     logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuDJKMZa9oQvcwOv-aDnhNZdeTLem5sRSUkOVGfPaK4JhoxG8OFxGpuFH3PLtrBrPjcrcR3ks8xdQkkQsW1TgHkCErkDK0kEw41b_QCeJhR9BkCKmOyvwBceHvCNvqjCt-2vdWIKIRyYOhvJSEZmxMwMSyGnECU5tP5dAeua36-wSBW_REAJsb5MHqRQYQ2Do1cXX2tZRJWSkIBv_Ig8SrzMGJ5znJ-whaO8RLLw4ulHReHNzqh9f7bi9G0gyaO5xXEBbag",
     heroImage: "/projects/sidaroodha.jpg",
     videoImage: "/projects/sidaroodha.jpg",
-    desc: "Siddharoodha Layout seamlessly integrates traditional neighborhood values with modern urban convenience. It provides a peaceful community living environment accompanied by state-of-the-art infrastructure. Excellent connectivity combined with green buffer zones offers the perfect backdrop for constructing your dream home.",
+    desc: "A community where tradition inspires modern living and every home reflects timeless values.",
     approval: "HDUDA Approved",
     sizes: "1200 - 3000 sqft",
     amenities: [
@@ -130,7 +130,7 @@ const projectsData = {
     logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuDVvXMmZBJu_20QvCxuWFI4OOeZQD5O4J3-MZCZRH9VZfLdp0Mg6vvaLpLGDBz1y1k3KE94nlHuM9QvaDWfxHupVrvEoXeI5xMeP8wWittkrgSpcMCC-TJCXzMnO8zi_2MA0tZpmOKoq9qrsNprNdl5tHDhBhaUSLMZ5ibVrUAqw0QRwtpb8tJqcxNRI9HZDQruloYIcgGh88U1n2btA6gfDFYquMf1CyMfvNwFFyox2g25ZKEeHnlQGTXRac6pfHW3Mrs",
     heroImage: "/projects/balaji_nagar.jpg",
     videoImage: "/projects/balaji_nagar.jpg",
-    desc: "Balaji Nagar is a premium layout offering strategic connectivity, eco-conscious planning, and a ready-to-construct setting. Surrounded by fully developed neighborhoods, it provides a safe, active, and vibrant community space for children and seniors alike.",
+    desc: "Crafted to elevate everyday living with modern amenities, peaceful surroundings, and excellent connectivity.",
     approval: "HDUDA Approved",
     sizes: "1200 - 1500 sqft",
     amenities: [
@@ -158,7 +158,7 @@ const projectsData = {
     logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuBFYQYwERiiFrk7FUJm55cvATYc37eYLWO9PRq3Cg6Sm_6bugqDhf_ZVtZVmi458-1JACTK0gEtOLXmP-l_hw3u_q0FxKhTaTRUHNPOZ17gSCtsFdkqS4kHJ2qctM7Resn25AHPwfNva3wr6voKhAbzXQaxGHj9B3oNWIyFSdIJWwzZ5oOfwzOLF_iSP91YmSl-fyVCIkiyK-3SNlNlHksPDig4LthwIETH9jYxgAhgBVJaeVuAikSZ2C5zIVznspwMEho",
     heroImage: "/projects/kanakgiri_park.jpg",
     videoImage: "/projects/kanakgiri_park.jpg",
-    desc: "Kanakgiri Park combines natural serenity with contemporary urban planning. Located directly adjacent to a lush green buffer reserve, this layout offers unmatched air quality, scenic views, and extensive outdoor parks for a healthy and active lifestyle.",
+    desc: "A premium destination offering well-planned plots, lush surroundings, and exceptional connectivity.",
     approval: "HDUDA Approved",
     sizes: "1200 - 4000 sqft",
     amenities: [
@@ -190,7 +190,7 @@ const projectsData = {
     logo: "/mahalakshmi.png",
     heroImage: "/projects/mahalaxmi.jpg",
     videoImage: "/projects/mahalaxmi.jpg",
-    desc: "Mahalaxmi Layout is our highly anticipated gated community project. Built to accommodate advanced green energy integrations and modern structural systems, it is the premier selection for individuals looking forward to long-term luxury living.",
+    desc: "More than a residential layout—it's a destination where memories are made and futures are built.",
     approval: "HDUDA Approval ",
     sizes: "1200 - 3600 sqft",
     amenities: [

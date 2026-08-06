@@ -139,7 +139,7 @@ export default function Home() {
       <section className="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="projects">
         <div className="text-center mb-20 reveal">
           <span className="text-secondary font-label-md text-label-md uppercase tracking-widest block mb-4">Our Portfolio</span>
-          <h2 className="font-display-lg text-headline-lg text-on-surface">Curated Residential Layouts</h2>
+          <h2 className="font-display-lg text-headline-lg text-on-surface">Discover Our Signature Developments</h2>
           <div className="w-24 h-1 bg-secondary mx-auto mt-6 rounded-full" />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
