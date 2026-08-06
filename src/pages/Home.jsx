@@ -18,7 +18,7 @@ const projectImages = [
 const projects = [
   {
     name: "Balaji Layout",
-    desc: "Own your story in a neighborhood designed for legacy and comfort.",
+    desc: "Experience everyday comfort in a community made to inspire.",
     badge: "Fast Selling",
     logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuA-agIoqyATWJ741khXW0GFaoSGQdOMkONVCQu4wUhtN8cGy2VCxveybqao2Zy5i0XaFEaSe2TszxPZmGEcVR-loT7XedRAJPSjydoAoOI46CaHPXI_Ktr3E47poyNqIJWccVyOBcWjvhIqfaFITMyfB7QBE50AkObn_dXF-poZoPZKhVO6nadmfRu25QUgdVW_nb-y7_GS4pAyKQzoEfGppljCMTF4lewRyqEOpIyRSyd6hibhrzUMGM3_ESLampM8xhE",
     image: "/projects/balaji_layout.jpg",
@@ -26,7 +26,7 @@ const projects = [
   },
   {
     name: "Kanakgiri Park",
-    desc: "Modern park-side living with expansive green buffer zones.",
+    desc: "Step into a vibrant community where every moment feels refreshing.",
     badge: "New",
     logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuBFYQYwERiiFrk7FUJm55cvATYc37eYLWO9PRq3Cg6Sm_6bugqDhf_ZVtZVmi458-1JACTK0gEtOLXmP-l_hw3u_q0FxKhTaTRUHNPOZ17gSCtsFdkqS4kHJ2qctM7Resn25AHPwfNva3wr6voKhAbzXQaxGHj9B3oNWIyFSdIJWwzZ5oOfwzOLF_iSP91YmSl-fyVCIkiyK-3SNlNlHksPDig4LthwIETH9jYxgAhgBVJaeVuAikSZ2C5zIVznspwMEho",
     image: "/projects/kanakgiri_park.jpg",
@@ -34,7 +34,7 @@ const projects = [
   },
   {
     name: "Balaji Nagar",
-    desc: "A vibrant community layout offering strategic connectivity.",
+    desc: "Live where connectivity, comfort, and opportunity come together.",
     badge: "Corner Plots",
     logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuDVvXMmZBJu_20QvCxuWFI4OOeZQD5O4J3-MZCZRH9VZfLdp0Mg6vvaLpLGDBz1y1k3KE94nlHuM9QvaDWfxHupVrvEoXeI5xMeP8wWittkrgSpcMCC-TJCXzMnO8zi_2MA0tZpmOKoq9qrsNprNdl5tHDhBhaUSLMZ5ibVrUAqw0QRwtpb8tJqcxNRI9HZDQruloYIcgGh88U1n2btA6gfDFYquMf1CyMfvNwFFyox2g25ZKEeHnlQGTXRac6pfHW3Mrs",
     image: "/projects/balaji_nagar.jpg",
@@ -42,7 +42,7 @@ const projects = [
   },
   {
     name: "Wild Woods",
-    desc: "Eco-conscious living nestled within pristine natural surroundings.",
+    desc: "Find your sanctuary in a farm villa surrounded by timeless natural beauty.",
     badge: "Farm Villa",
     logo: "/projects/wild_woods.png",
     image: "/projects/wild_woods.jpg",
@@ -50,7 +50,7 @@ const projects = [
   },
   {
     name: "Mahalaxmi Layout",
-    desc: "Your Visionary Future. Premium gated community layout.",
+    desc: "Choose a residential address where families grow and futures flourish.",
     badge: "New",
     logo: "/mahalakshmi.png",
     image: "/projects/mahalaxmi.jpg",
@@ -58,14 +58,14 @@ const projects = [
   },
   {
     name: "Siddharoodha Layout",
-    desc: "Traditional values meet modern urban planning in this premium enclave.",
+    desc: "More than a layout—it's a community you'll be proud to call home.",
     logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuDJKMZa9oQvcwOv-aDnhNZdeTLem5sRSUkOVGfPaK4JhoxG8OFxGpuFH3PLtrBrPjcrcR3ks8xdQkkQsW1TgHkCErkDK0kEw41b_QCeJhR9BkCKmOyvwBceHvCNvqjCt-2vdWIKIRyYOhvJSEZmxMwMSyGnECU5tP5dAeua36-wSBW_REAJsb5MHqRQYQ2Do1cXX2tZRJWSkIBv_Ig8SrzMGJ5znJ-whaO8RLLw4ulHReHNzqh9f7bi9G0gyaO5xXEBbag",
     image: "/projects/sidaroodha.jpg",
     link: "/projects/siddharoodha_layout"
   },
   {
     name: "Hans Garden",
-    desc: "Premium residential and commercial plots with elite infrastructure.",
+    desc: "Where smart businesses find the perfect place to grow and push the code.",
     badge: "Commercial Space",
     logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuDDHjdTaLOaRN2XK3UcnmODt49fH5E9FtwK7hWKKYJr36PzvyLHrSg3-tseaCFa5x5DgfUB-e-mmUOiusYjG1vqEdSnO8n7EolcAuvOGqi-q3etasGgpBzRtaQD8tr1VvmBp2QIx2uPNs_IvHl-u5aOCHl5H99MMpN9Qb1EatX07UEF1kNz_djiy1krLNrd5dLVgOsSxf2EEiQUP0i63Cv7nGVrMcbSuv1RYo1DQfdzejMNOk0QGnMG8KfUDewsUHJ2_Rk",
     image: "/projects/hans_garden.png",
