@@ -78,7 +78,7 @@ export default function About() {
                 </div>
                 <h2 className="font-headline-md text-headline-md text-on-surface mb-6">Transparency as our Foundation</h2>
                 <p className="font-body-md text-body-md text-secondary leading-loose max-w-lg">
-                  Our mission is simple yet profound: Deliver transparent, legally verified, and high-value residential layouts that stand the test of time. We believe in land as the ultimate asset.
+                  Our mission is to deliver transparent, legally verified, and thoughtfully planned real estate developments. From residential layouts and commercial plots to farm villa communities, we create lasting value through trust, quality, and strategic locations.
                 </p>
               </div>
               <div className="bg-surface-container-low p-10 rounded-[32px] whisper-shadow">
