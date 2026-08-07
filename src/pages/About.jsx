@@ -84,7 +84,7 @@ export default function About() {
               <div className="bg-surface-container-low p-10 rounded-[32px] whisper-shadow">
                 <h3 className="font-headline-sm text-headline-sm text-primary mb-4">Our Vision</h3>
                 <p className="font-body-md text-body-md text-on-surface-variant italic leading-relaxed">
-                  "To become Karnataka’s most trusted residential plot developer, recognized for setting the gold standard in premium land acquisition and community planning."
+                  "To become Karnataka’s most trusted real estate company, renowned for crafting exceptional spaces that elevate lifestyles, empower businesses, and create lasting legacies."
                 </p>
               </div>
             </div>
