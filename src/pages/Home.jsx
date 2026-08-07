@@ -186,7 +186,7 @@ export default function Home() {
             <div className="grid grid-cols-2 gap-6">
               <div className="space-y-6">
                 <div className="aspect-square glass-card rounded-3xl overflow-hidden p-8 flex flex-col justify-end">
-                  <span className="text-4xl font-bold text-secondary mb-2">15+</span>
+                  <span className="text-4xl font-bold text-secondary mb-2">10+</span>
                   <p className="text-on-surface-variant font-label-md uppercase tracking-tighter">Years of Excellence</p>
                 </div>
                 <div className="aspect-[4/5] bg-secondary rounded-3xl overflow-hidden flex items-center justify-center p-8 text-on-secondary">
@@ -202,7 +202,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="aspect-square glass-card rounded-3xl overflow-hidden p-8 flex flex-col justify-end">
-                  <span className="text-4xl font-bold text-secondary mb-2">500+</span>
+                  <span className="text-4xl font-bold text-secondary mb-2">1000+</span>
                   <p className="text-on-surface-variant font-label-md uppercase tracking-tighter">Happy Families</p>
                 </div>
               </div>
