@@ -210,9 +210,9 @@ export default function Home() {
           </div>
           <div className="space-y-8 reveal">
             <span className="text-secondary font-label-md text-label-md uppercase tracking-widest block">Who We Are</span>
-            <h2 className="font-display-lg text-headline-lg text-on-surface">Trusted Residential Land Specialists</h2>
+            <h2 className="font-display-lg text-headline-lg text-on-surface">Trusted Real Estate Specialists</h2>
             <p className="font-body-lg text-body-lg text-on-surface-variant">
-              At Orchid Properties, we don't just sell plots; we provide the foundation for your aspirations. With over a decade of expertise in urban development and land acquisition, we specialize in identifying high-growth corridors and transforming them into premium residential spaces.
+              At Orchid Properties, we don't just sell plots; we create destinations where dreams take shape. With over a decade of expertise in land acquisition and development, we specialize in crafting premium residential layouts, commercial spaces, and farm villa communities that deliver lasting value and inspire confident investments.
             </p>
             <div className="space-y-4">
               {["Clear Title & Documentation", "Prime Infrastructure Ready", "Strategically Located Layouts"].map(item => (
