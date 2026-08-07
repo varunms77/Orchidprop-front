@@ -10,17 +10,37 @@ export default function Contact() {
   useNavbarScroll();
 
   const [submitState, setSubmitState] = useState('idle'); // idle | sending | sent
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitState('sending');
+
+    let text = `Hello Orchid Properties,\nI would like to make an enquiry.\n`;
+    if (formData.name) text += `*Name:* ${formData.name}\n`;
+    if (formData.email) text += `*Email:* ${formData.email}\n`;
+    if (formData.phone) text += `*Phone:* ${formData.phone}\n`;
+    if (formData.message) text += `*Message:* ${formData.message}\n`;
+
+    const whatsappUrl = `https://wa.me/message/XAGEMF5YRVSJK1?text=${encodeURIComponent(text)}`;
+
     setTimeout(() => {
       setSubmitState('sent');
+      window.open(whatsappUrl, '_blank');
       setTimeout(() => {
         setSubmitState('idle');
-        e.target.reset();
+        setFormData({ name: '', email: '', phone: '', message: '' });
       }, 3000);
-    }, 1500);
+    }, 800);
   };
 
   return (
@@ -43,21 +63,47 @@ export default function Contact() {
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="space-y-2">
                 <label className="font-label-caps text-label-caps text-outline ml-1 block">FULL NAME</label>
-                <input className="w-full bg-white border border-outline-variant rounded-xl px-6 py-4 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all placeholder:text-outline-variant" type="text" />
+                <input
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                  className="w-full bg-white border border-outline-variant rounded-xl px-6 py-4 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all placeholder:text-outline-variant"
+                  type="text"
+                />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="font-label-caps text-label-caps text-outline ml-1 block">EMAIL ADDRESS</label>
-                  <input className="w-full bg-white border border-outline-variant rounded-xl px-6 py-4 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all placeholder:text-outline-variant" type="email" />
+                  <input
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    className="w-full bg-white border border-outline-variant rounded-xl px-6 py-4 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all placeholder:text-outline-variant"
+                    type="email"
+                  />
                 </div>
                 <div className="space-y-2">
                   <label className="font-label-caps text-label-caps text-outline ml-1 block">PHONE NUMBER</label>
-                  <input className="w-full bg-white border border-outline-variant rounded-xl px-6 py-4 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all placeholder:text-outline-variant" type="tel" />
+                  <input
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    required
+                    className="w-full bg-white border border-outline-variant rounded-xl px-6 py-4 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all placeholder:text-outline-variant"
+                    type="tel"
+                  />
                 </div>
               </div>
               <div className="space-y-2">
                 <label className="font-label-caps text-label-caps text-outline ml-1 block">YOUR MESSAGE</label>
-                <textarea className="w-full bg-white border border-outline-variant rounded-xl px-6 py-4 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all placeholder:text-outline-variant resize-none" rows="5" />
+                <textarea
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  className="w-full bg-white border border-outline-variant rounded-xl px-6 py-4 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all placeholder:text-outline-variant resize-none"
+                  rows="5"
+                />
               </div>
               <button
                 className={`w-full py-5 rounded-full font-label-md text-label-md uppercase tracking-widest transition-all duration-500 shadow-lg transform hover:-translate-y-1 flex items-center justify-center gap-3 ${
@@ -67,8 +113,8 @@ export default function Contact() {
                 disabled={submitState !== 'idle'}
               >
                 {submitState === 'idle' && (<>Submit Enquiry <span className="material-symbols-outlined">send</span></>)}
-                {submitState === 'sending' && (<><span className="material-symbols-outlined animate-spin">progress_activity</span> Sending...</>)}
-                {submitState === 'sent' && (<><span className="material-symbols-outlined">check_circle</span> Enquiry Received</>)}
+                {submitState === 'sending' && (<><span className="material-symbols-outlined animate-spin">progress_activity</span> Redirecting to WhatsApp...</>)}
+                {submitState === 'sent' && (<><span className="material-symbols-outlined">check_circle</span> Enquiry Sent</>)}
               </button>
             </form>
           </section>
