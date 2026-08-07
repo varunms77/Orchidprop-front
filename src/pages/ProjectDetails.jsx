@@ -76,7 +76,7 @@ const projectsData = {
     heroDesc: "A community where tradition inspires modern living and every home reflects timeless values.",
     desc: "Siddharoodha Layout is where aspirations find their perfect address. Designed to inspire a refined lifestyle, this exclusive residential community offers an environment that celebrates space, serenity, and a future built with confidence. Every plot is an opportunity to create a home that reflects your vision.",
     approval: "HDUDA Approved",
-    sizes: "1200 - 3000 sqft",
+    sizes: "1000 - 2400 sqft",
     amenities: [
       { icon: "road", label: "Wide Bitumen Roads", desc: "30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
       { icon: "water_drop", label: "24/7 Water Supply", desc: "Dedicated overhead water tanks and deep borewells ensuring uninterrupted supply to every plot." },
@@ -106,7 +106,7 @@ const projectsData = {
     videoUrl: "https://www.youtube.com/embed/nXfb26Gwlgo?autoplay=1",
     desc: "Balaji Layout is meticulously planned to represent comfort, security, and legacy. Set in a fast-appreciating corridor, this project has been built to exceed standard specifications. With dedicated services and top-grade concrete details, this neighborhood guarantees a reliable and robust investment for you and your family.",
     approval: "HDUDA Approved",
-    sizes: "1200 - 2400 sqft",
+    sizes: "1000 - 4500 sqft",
     amenities: [
       { icon: "road", label: "Wide Bitumen Roads", desc: "30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
       { icon: "water_drop", label: "24/7 Water Supply", desc: "Dedicated overhead water tanks and deep borewells ensuring uninterrupted supply to every plot." },
@@ -139,7 +139,7 @@ const projectsData = {
     heroDesc: "Crafted to elevate everyday living with modern amenities, peaceful surroundings, and excellent connectivity.",
     desc: "Balaji Nagar stands as a symbol of thoughtful planning and enduring quality. Nestled in a fast-developing location, this premium residential layout offers legally approved plots, modern infrastructure, and a welcoming environment that inspires comfortable living and lasting value.",
     approval: "HDUDA Approved",
-    sizes: "1200 - 1500 sqft",
+    sizes: "1200 - 5000 sqft",
     amenities: [
       { icon: "road", label: "Wide Bitumen Roads", desc: "30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
       { icon: "water_drop", label: "24/7 Water Supply", desc: "Dedicated overhead water tanks and deep borewells ensuring uninterrupted supply to every plot." },
@@ -173,7 +173,7 @@ const projectsData = {
     heroDesc: "A premium destination offering well-planned plots, lush surroundings, and exceptional connectivity.",
     desc: "Kanakagiri Park is meticulously planned to represent comfort, connectivity, and long-term value. Situated in a rapidly growing location, this premium residential layout is designed to exceed modern living expectations. With quality infrastructure, legally approved plots, and excellent access to key destinations, it offers a secure and rewarding investment for you and your family.",
     approval: "HDUDA Approved",
-    sizes: "1200 - 4000 sqft",
+    sizes: "1200 - 4500 sqft",
     amenities: [
       { icon: "road", label: "Wide Bitumen Roads", desc: " 30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
       { icon: "water_drop", label: "24/7 Water Supply", desc: "Dedicated overhead water tanks and deep borewells ensuring uninterrupted supply to every plot." },
@@ -207,7 +207,7 @@ const projectsData = {
     heroDesc: "More than a residential layout—it's a destination where memories are made and futures are built.",
     desc: "Mahalaxmi Layout is where peaceful surroundings meet modern living. Overlooking a serene environment and supported by excellent connectivity, it offers the ideal setting to build a home that reflects your aspirations and enriches everyday life. Designed with quality infrastructure and legally approved plots, this vibrant community brings together comfort, convenience, and lasting value in one exceptional destination.",
     approval: "HDUDA Approval ",
-    sizes: "1200 - 3600 sqft",
+    sizes: "1200 - 6600 sqft",
     amenities: [
       { icon: "road", label: "Wide Bitumen Roads", desc: "30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
       { icon: "water_drop", label: "24/7 Water Supply", desc: "Dedicated overhead water tanks and deep borewells ensuring uninterrupted supply to every plot." },
