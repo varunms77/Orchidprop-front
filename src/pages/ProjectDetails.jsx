@@ -197,7 +197,7 @@ const projectsData = {
     heroImage: "/projects/mahalaxmi.jpg",
     videoImage: "/projects/mahalaxmi.jpg",
     heroDesc: "More than a residential layout—it's a destination where memories are made and futures are built.",
-    desc: "More than a residential layout—it's a destination where memories are made and futures are built.",
+    desc: "Mahalaxmi Layout is where peaceful surroundings meet modern living. Overlooking a serene environment and supported by excellent connectivity, it offers the ideal setting to build a home that reflects your aspirations and enriches everyday life. Designed with quality infrastructure and legally approved plots, this vibrant community brings together comfort, convenience, and lasting value in one exceptional destination.",
     approval: "HDUDA Approval ",
     sizes: "1200 - 3600 sqft",
     amenities: [
