@@ -18,6 +18,7 @@ dist-ssr
 *.mp4
 *.mov
 *.MOV
+!public/projects/Orchidhorizontal.mp4
 
 # Environment files
 *.local
