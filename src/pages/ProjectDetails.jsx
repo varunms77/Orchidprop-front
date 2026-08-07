@@ -46,7 +46,7 @@ const projectsData = {
     videoImage: "https://lh3.googleusercontent.com/aida-public/AB6AXuAyzts4jBllCyEFzi-hNkk0mUL1ahIeDyYNlt9Gr6EtAPeOHbnjIMykn6OSSNPf8edDeM_B1Om6fC8-ARWeV8jB5MAJ7DFOfGEWyV7t7tbBLgw7Ch9uhJxs9b14yegeauc8qBYI_HkGFuiXWVtYcw7o3KzbMsbCZ1kkoDNaERjtARLYqVs634g1V-Kl6KB7X-S1jofEgxUwupHJ_RPQu-kZvO1K7RtSyj3l_ChXjXa4VoN99ZJ8cVGOmA",
     desc: "Hans Garden is where business meets opportunity. Strategically positioned to maximize visibility and accessibility, this premium commercial destination is designed for entrepreneurs, retailers, and investors seeking a location that drives growth, attracts customers, and creates long-term value.",
     approval: "HDUDA",
-    sizes: "1200 - 4000 sqft",
+    sizes: "5-7 guntas",
     amenities: [
       { icon: "road", label: "Wide Bitumen Roads", desc: "30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
       { icon: "water_drop", label: "24/7 Water Supply", desc: "Dedicated overhead water tanks and deep borewells ensuring uninterrupted supply to every plot." },
@@ -55,9 +55,9 @@ const projectsData = {
       { icon: "wb_twilight", label: "Street Lights", desc: "High-efficiency LED street lights ensuring security and elegance during nighttime." }
     ],
     proximity: [
-      { icon: "school", label: "Education Hub", desc: "Global International School (5 mins) • St. Mary's Academy (8 mins)" },
-      { icon: "medical_services", label: "Medical Care", desc: "City Super Specialty Hospital (10 mins) • HealthCare Clinic (4 mins)" },
-      { icon: "commute", label: "Connectivity", desc: "Main Bus Terminal (12 mins) • Metro Station Phase II (15 mins)" }
+      { icon: "school", label: "Education Hub", desc: "JSS School (3 mins)" },
+      { icon: "medical_services", label: "Medical Care", desc: "Dharwad Civil Hospital (7 mins)" },
+      { icon: "commute", label: "Connectivity", desc: "Old Bus Terminal (10 mins)" }
     ],
     mapUrl: "https://maps.google.com/maps?q=Hans+Garden,+Orchid+Properties,+Dharwad,+Karnataka&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
