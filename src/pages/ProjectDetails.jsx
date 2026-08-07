@@ -132,7 +132,7 @@ const projectsData = {
     heroImage: "/projects/balaji_nagar.jpg",
     videoImage: "/projects/balaji_nagar.jpg",
     heroDesc: "Crafted to elevate everyday living with modern amenities, peaceful surroundings, and excellent connectivity.",
-    desc: "Crafted to elevate everyday living with modern amenities, peaceful surroundings, and excellent connectivity.",
+    desc: "Balaji Nagar stands as a symbol of thoughtful planning and enduring quality. Nestled in a fast-developing location, this premium residential layout offers legally approved plots, modern infrastructure, and a welcoming environment that inspires comfortable living and lasting value.",
     approval: "HDUDA Approved",
     sizes: "1200 - 1500 sqft",
     amenities: [
