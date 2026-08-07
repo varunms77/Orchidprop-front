@@ -12,7 +12,7 @@ const projectsData = {
     heroImage: "/projects/wild_woods.jpg",
     videoImage: "/projects/wild_woods.jpg",
     videoUrl: "https://player.cloudinary.com/embed/?cloud_name=dwoxzre9m&public_id=Wild_woods_xwwobv",
-    desc: "Wildwoods represents the luxury of seclusion, a residential plots development by Orchid Properties. Nestled in a landscape defined by century-old trees and rolling greenery, this project offers high-value residential layout plots for your legacy piece of land. The community is meticulously planned to ensure that every plot enjoys natural boundary and breathtaking views.",
+    desc: "Wild Woods represents the luxury of seclusion, an exclusive farm villa community by Orchid Properties. Nestled amidst lush greenery, century-old trees, and rolling landscapes, this project offers premium farm villa plots to create your own legacy retreat. Thoughtfully planned to preserve nature, every plot enjoys scenic surroundings, fresh air, and breathtaking views.",
     approval: "HDUDA Approved",
     sizes: "5-10  Guntas",
     amenities: [
