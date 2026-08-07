@@ -181,6 +181,7 @@ const projectsData = {
       { icon: "school", label: "Education Hub", desc: "Classic International School (5 mins)" },
       { icon: "account_balance", label: "University", desc: "Karnataka University(7 mins)" },
     ],
+    proximityDesc: "Kanakgiri Park is centrally located with seamless connectivity to major university, educational, and transportation hubs.",
     mapUrl: "https://maps.google.com/maps?q=Kanakagiri+Park,+Orchid+Properties,+Tapovan+Nagar,+Kyarkoppa,+Dharwad,+Karnataka+580003&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
       "/projects/kanakgiri_park.jpg",
