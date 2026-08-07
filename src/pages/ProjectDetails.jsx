@@ -82,9 +82,9 @@ const projectsData = {
       { icon: "wb_twilight", label: "Street Lights", desc: "High-efficiency LED street lights ensuring security and elegance during nighttime." }
     ],
     proximity: [
-      { icon: "school", label: "Education Hub", desc: "National Public School (10 mins) • City College (15 mins)" },
-      { icon: "medical_services", label: "Medical Care", desc: "St. John's Hospital (8 mins) • Lifecare Medicals (2 mins)" },
-      { icon: "commute", label: "Connectivity", desc: "Rail Junction (15 mins) • Highway Access (5 mins)" }
+      { icon: "school", label: "Education Hub", desc: "Basavareddy Institute(4 mins)" },
+      { icon: "commute", label: "Connectivity", desc: "Dharwad New Bus Terminal (5 mins)" },
+      { icon: "medical_services", label: "Medical Care", desc: "German Hospital (7 mins)" },
     ],
     mapUrl: "https://maps.google.com/maps?q=Siddharoodha+layout,+Orchid+Properties,+near+BD+Patil+Convention+Hall,+Sampige+Nagar,+Dharwad,+Karnataka+580007&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
