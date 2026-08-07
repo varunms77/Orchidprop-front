@@ -43,7 +43,7 @@ const projectsData = {
     logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuDDHjdTaLOaRN2XK3UcnmODt49fH5E9FtwK7hWKKYJr36PzvyLHrSg3-tseaCFa5x5DgfUB-e-mmUOiusYjG1vqEdSnO8n7EolcAuvOGqi-q3etasGgpBzRtaQD8tr1VvmBp2QIx2uPNs_IvHl-u5aOCHl5H99MMpN9Qb1EatX07UEF1kNz_djiy1krLNrd5dLVgOsSxf2EEiQUP0i63Cv7nGVrMcbSuv1RYo1DQfdzejMNOk0QGnMG8KfUDewsUHJ2_Rk",
     heroImage: "https://lh3.googleusercontent.com/aida-public/AB6AXuD6zKyoQyFG8SQQai4C6bRwe6POYKzxTez5NF6SMpqvA6uJgumt3V1nmfWKkCH30snEFVAIiC5uK4Y8m3Szr-5twxssrd3H_hdy69-4n1AR8EzmvjbvsWT2wUkRnAT8v-s3ee4qSd0IuCxx2_sF89Gq4w2NtFJ9KEKb6XDmwcW4WCCpPTnPRs5bZZRHlY2_kYUdERL5cYl7_B4D05poArIBzt3wpRmX8WIqRFP_ww4WZT9mKOSnn7OZravNnbbW7h-SRZ4",
     videoImage: "https://lh3.googleusercontent.com/aida-public/AB6AXuAyzts4jBllCyEFzi-hNkk0mUL1ahIeDyYNlt9Gr6EtAPeOHbnjIMykn6OSSNPf8edDeM_B1Om6fC8-ARWeV8jB5MAJ7DFOfGEWyV7t7tbBLgw7Ch9uhJxs9b14yegeauc8qBYI_HkGFuiXWVtYcw7o3KzbMsbCZ1kkoDNaERjtARLYqVs634g1V-Kl6KB7X-S1jofEgxUwupHJ_RPQu-kZvO1K7RtSyj3l_ChXjXa4VoN99ZJ8cVGOmA",
-    desc: "Hans Garden offers a blend of residential and commercial plots designed for those who seek a balanced lifestyle. With premium infrastructure and a strategic location, it represents a golden investment opportunity for individuals who value both serenity and connectivity.",
+    desc: "Hans Garden is where business meets opportunity. Strategically positioned to maximize visibility and accessibility, this premium commercial destination is designed for entrepreneurs, retailers, and investors seeking a location that drives growth, attracts customers, and creates long-term value.",
     approval: "HDUDA",
     sizes: "1200 - 4000 sqft",
     amenities: [
