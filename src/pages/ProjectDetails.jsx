@@ -23,11 +23,12 @@ const projectsData = {
       { icon: "celebration", label: "Party Lawn", desc: "A beautifully landscaped open party lawn, perfect for family celebrations, festive occasions, and memorable outdoor events" }
     ],
     proximity: [
-      { icon: "commute", label: "Connectivity", desc: "Dharwad City (20 mins)" },
       { icon: "commute", label: "Connectivity", desc: "Jayanagar - Srinagar (15 mins) " },
+      { icon: "commute", label: "Connectivity", desc: "Dharwad City (20 mins)" },
       { icon: "commute", label: "Connectivity", desc: "Hubli Airport (25 mins)" },
     ],
     mapUrl: "https://maps.google.com/maps?q=Wild+Woods,+Murakatti,+Dharwad+-+Haliyal+Rd,+Dharwad,+Karnataka+580118&t=&z=14&ie=UTF8&iwloc=&output=embed",
+    proximityDesc: "Wild Woods offers the perfect balance of peaceful countryside living and convenient access to the city's key destinations, keeping you connected while surrounded by nature.",
     heroDesc: "Luxury Farm Villas crafted for serene living, expansive open spaces, and a perfect blend of nature and comfort.",
     gallery: [
       "/projects/wild_woods.jpg",
