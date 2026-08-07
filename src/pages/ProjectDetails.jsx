@@ -445,7 +445,7 @@ export default function ProjectDetails() {
                   Secure Your Future at {project.name}
                 </h2>
                 <p className="font-body-lg text-body-lg text-on-surface-variant mb-10">
-                  Limited plots remaining in Phase 1. Schedule a private site visit today and experience the tranquility firsthand.
+                  Limited premium plots available. Schedule a private site visit today and experience the tranquility firsthand.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   {project.brochureUrl ? (
