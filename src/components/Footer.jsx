@@ -10,7 +10,7 @@ export default function Footer() {
         {/* Brand */}
         <div className="col-span-1 md:col-span-1 space-y-6">
           <div className="flex items-center gap-2">
-            <img alt="Orchid Properties Logo" className="h-10 w-auto" src={LOGO_URL} style={{ filter: 'invert(1)' }} />
+            <img alt="Orchid Properties Logo" className="h-10 w-auto object-contain" src={LOGO_URL} />
             <span className="font-headline-md text-headline-md font-bold text-secondary">Orchid Properties</span>
           </div>
           <p className="font-body-md text-body-md text-on-surface-variant opacity-80 leading-relaxed">
