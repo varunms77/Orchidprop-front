@@ -211,7 +211,11 @@ const projectsData = {
     ],
     mapUrl: "https://maps.google.com/maps?q=Mahalaxmi+Layout,+Orchid+Properties,+opp.+Kelageri+Lake,+Kelgeri,+Dharwad,+Karnataka+580007&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
-      "/projects/mahalaxmi.jpg",
+      "/projects/ma4.jpg",
+      "/projects/ma5.jpg",
+      "/projects/ma1.jpg",
+      "/projects/ma2.jpg",
+      "/projects/ma3.jpg"
     ]
   }
 };
