@@ -17,7 +17,7 @@ const bentoFeatures = [
   { icon: "location_on", title: "Prime Locations", desc: "Strategically selected areas with high appreciation potential and seamless connectivity." },
   { icon: "gavel", title: "Legal Documentation", desc: "100% verified titles and hassle-free registration processes for peace of mind." },
   { icon: "payments", title: "Affordable Investment", desc: "Premium living accessible through competitive pricing and flexible payment plans." },
-  { icon: "sentiment_very_satisfied", title: "Customer Satisfaction", desc: "A community of 5000+ happy land owners who trust the Orchid name." },
+  { icon: "sentiment_very_satisfied", title: "Customer Satisfaction", desc: "A community of 1000+ happy land owners who trust the Orchid name." },
   { icon: "verified", title: "Trusted Service", desc: "Dedicated relationship managers guiding you through every step of the journey." },
   { icon: "foundation", title: "Quality Developments", desc: "Setting standard infrastructure including wide blacktop roads, drainage and amenities." }
 ];

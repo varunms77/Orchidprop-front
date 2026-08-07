@@ -265,7 +265,7 @@ export default function Home() {
             {
               icon: "sentiment_satisfied",
               title: "Customer Satisfaction",
-              desc: "A community of 5000+ happy land owners who trust the Orchid name."
+              desc: "A community of 1000+ happy land owners who trust the Orchid name."
             },
             {
               icon: "verified",
