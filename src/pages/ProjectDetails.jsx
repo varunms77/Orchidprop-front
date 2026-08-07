@@ -150,6 +150,7 @@ const projectsData = {
       { icon: "account_balance", label: "University", desc: "Karnataka University(7 mins)" }
 
     ],
+    proximityDesc: "Balaji Nagar is centrally located with seamless connectivity to major university, educational, and transportation hubs.",
     mapUrl: "https://maps.google.com/maps?q=Balaji+Nagar,+Orchid+Properties,+Dharwad+-+Haliyal+Rd,+Hubballi,+Karnataka+580007&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
       "/projects/b1.jpg",
