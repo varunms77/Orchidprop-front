@@ -117,6 +117,7 @@ const projectsData = {
       { icon: "school", label: "Education Hub", desc: "IIT DHARWAD (10 mins) " }
     ],
     brochureUrl: "/projects/Balaji_Layout.pdf",
+    proximityDesc: "Balaji Layout is centrally located with seamless connectivity to major university, educational, and transportation hubs.",
     mapUrl: "https://maps.google.com/maps?q=Balaji+Layout,+Chikkamalligwad,+Dharwad,+Hiremalligawad,+Karnataka+580007&t=&z=16&ie=UTF8&iwloc=&output=embed",
     gallery: [
       "/projects/bal1.jpeg",
@@ -398,7 +399,7 @@ export default function ProjectDetails() {
           <div className="space-y-10 reveal">
             <div>
               <h2 className="font-headline-md text-headline-md text-primary mb-6">Strategic Proximity</h2>
-              <p className="font-body-md text-body-md text-on-surface-variant">{project.name} is centrally located with seamless connectivity to major healthcare, educational, and transportation hubs.</p>
+              <p className="font-body-md text-body-md text-on-surface-variant">{project.proximityDesc || `${project.name} is centrally located with seamless connectivity to major healthcare, educational, and transportation hubs.`}</p>
             </div>
             <div className="space-y-6">
               {project.proximity.map((prox, index) => (
