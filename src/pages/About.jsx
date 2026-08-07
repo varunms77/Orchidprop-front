@@ -32,27 +32,31 @@ export default function About() {
 
       <main className="pt-[80px]">
         {/* Hero Section */}
-        <section className="relative h-[819px] flex items-center overflow-hidden">
+        <section className="relative h-[85vh] md:h-[819px] flex items-end md:items-center pb-16 md:pb-0 overflow-hidden">
           <div className="absolute inset-0 z-0">
             <video
               autoPlay
               loop
               muted
               playsInline
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-center"
+              style={{ minWidth: '100%', minHeight: '100%' }}
             >
               <source src={HERO_VIDEO} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-            <div className="absolute inset-0 bg-gradient-to-r from-background via-background/40 to-transparent"></div>
+            {/* Desktop gradient: left-to-right */}
+            <div className="hidden md:block absolute inset-0 bg-gradient-to-r from-background via-background/40 to-transparent"></div>
+            {/* Mobile gradient: stronger bottom overlay for text readability */}
+            <div className="block md:hidden absolute inset-0 bg-gradient-to-t from-background via-background/70 to-transparent"></div>
           </div>
           <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full reveal active">
             <div className="max-w-2xl">
               <span className="font-label-caps text-label-caps text-primary tracking-widest uppercase mb-4 block">Legacy of Excellence</span>
-              <h1 className="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-background mb-8 leading-tight">
+              <h1 className="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-background mb-6 md:mb-8 leading-tight">
                 Crafting the <br/><span className="text-primary italic">Luxury of Space</span>
               </h1>
-              <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-10">
+              <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-8 md:mb-10 max-w-md md:max-w-none">
                 A trusted leader specializing exclusively in premium residential land and plots, where every square foot is a foundation for your future legacy.
               </p>
               <div className="flex flex-wrap gap-6">
