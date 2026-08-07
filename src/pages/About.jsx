@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useRevealOnScroll, useNavbarScroll } from '../hooks/useScrollEffects';
 
-const HERO_IMG = "https://lh3.googleusercontent.com/aida-public/AB6AXuCTQ02f_eE9IwjOeqEzwIlWFaQ-6zGWcb7iVHZiUMP7qwCyBxJ3jvtI_GzR7RZQ_YgLG0hH4FuHtQHMTqfFtlJclk-gzgCvWIHGXFXJMG78nRJ0v7YJbGnapvCEziKW474xOjUYjQdR46PNy7Q3kjKLN3XBDv8psv77_1l6HFCJnwxJFpIjNygrB-7AQMp70bVVbUN47v-YjhiGHWkH3t-lvDSkW1I26eefwFRehvw4-yZw9hGOFapSEA";
+const HERO_VIDEO = "/projects/Orchidhorizontal.mp4";
 
 const gridImages = [
   "https://lh3.googleusercontent.com/aida-public/AB6AXuDTg5dT7_yI5pxQtwvB497-y00xjwV8f56jGTecx8Wq9x19IUTFRBeq1abvS2yhidMoHh3Y58QPVjNdG7fr4dX09pVZ-ScABajM9372sQV1HU_comeaTfqyw8DIefA_1iIFnjdMV4FaN_p781zYvFW4w_5xJknTouA-K8CJLyAenQtcOAovqb6Krr4a1tP8I5r72oF4DkCANtcZGMZT0aHb2vtHvBa93_tld6rjiLAMHvRvnYKiZXiB4A",
@@ -34,7 +34,16 @@ export default function About() {
         {/* Hero Section */}
         <section className="relative h-[819px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
-            <div className="w-full h-full bg-cover bg-center transition-transform duration-[10s] hover:scale-105" style={{ backgroundImage: `url('${HERO_IMG}')` }}></div>
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover"
+            >
+              <source src={HERO_VIDEO} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             <div className="absolute inset-0 bg-gradient-to-r from-background via-background/40 to-transparent"></div>
           </div>
           <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full reveal active">
