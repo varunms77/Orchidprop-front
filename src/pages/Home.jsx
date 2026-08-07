@@ -9,7 +9,7 @@ const HERO_IMG = "https://lh3.googleusercontent.com/aida-public/AB6AXuA38ikc9HF7
 const projectImages = [
   "/projects/balaji_layout.jpg",
   "/projects/kanakgiri_park.jpg",
-  "/projects/balaji_nagar.jpg",
+  "/projects/b3.jpg",
   "/projects/wild_woods.jpg",
   "/projects/mahalaxmi.jpg",
   "/projects/sidaroodha.jpg"
@@ -37,7 +37,7 @@ const projects = [
     desc: "Live where connectivity, comfort, and opportunity come together.",
     badge: "Corner Plots",
     logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuDVvXMmZBJu_20QvCxuWFI4OOeZQD5O4J3-MZCZRH9VZfLdp0Mg6vvaLpLGDBz1y1k3KE94nlHuM9QvaDWfxHupVrvEoXeI5xMeP8wWittkrgSpcMCC-TJCXzMnO8zi_2MA0tZpmOKoq9qrsNprNdl5tHDhBhaUSLMZ5ibVrUAqw0QRwtpb8tJqcxNRI9HZDQruloYIcgGh88U1n2btA6gfDFYquMf1CyMfvNwFFyox2g25ZKEeHnlQGTXRac6pfHW3Mrs",
-    image: "/projects/balaji_nagar.jpg",
+    image: "/projects/b3.jpg",
     link: "/projects/balaji_nagar"
   },
   {
