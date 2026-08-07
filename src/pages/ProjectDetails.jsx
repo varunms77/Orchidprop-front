@@ -71,7 +71,7 @@ const projectsData = {
     heroImage: "/projects/sidaroodha.jpg",
     videoImage: "/projects/sidaroodha.jpg",
     heroDesc: "A community where tradition inspires modern living and every home reflects timeless values.",
-    desc: "A community where tradition inspires modern living and every home reflects timeless values.",
+    desc: "Siddharoodha Layout is where aspirations find their perfect address. Designed to inspire a refined lifestyle, this exclusive residential community offers an environment that celebrates space, serenity, and a future built with confidence. Every plot is an opportunity to create a home that reflects your vision.",
     approval: "HDUDA Approved",
     sizes: "1200 - 3000 sqft",
     amenities: [
