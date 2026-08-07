@@ -88,9 +88,10 @@ const projectsData = {
     ],
     mapUrl: "https://maps.google.com/maps?q=Siddharoodha+layout,+Orchid+Properties,+near+BD+Patil+Convention+Hall,+Sampige+Nagar,+Dharwad,+Karnataka+580007&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
-      "/projects/sidaroodha.jpg",
       "/projects/sida11.jpg",
-      "/projects/sida22.jpg"
+      "/projects/sida22.jpg",
+      "/projects/sida33.jpg",
+      "/projects/sida44.jpg"
     ]
   },
   balaji_layout: {
@@ -208,9 +209,9 @@ const projectsData = {
       { icon: "wb_twilight", label: "Street Lights", desc: "High-efficiency LED street lights ensuring security and elegance during nighttime." }
     ],
     proximity: [
-      { icon: "school", label: "Schools", desc: "JSS Public School (7 mins)" },
+      { icon: "commute", label: "Connectivity", desc: "NH-48 Access (4 mins)" },
       { icon: "medical_services", label: "Medical Care", desc: "German Hospital (5 mins)" },
-      { icon: "commute", label: "Connectivity", desc: "NH-48 Access (4 mins)" }
+      { icon: "school", label: "Schools", desc: "JSS Public School (7 mins)" }
     ],
     mapUrl: "https://maps.google.com/maps?q=Mahalaxmi+Layout,+Orchid+Properties,+opp.+Kelageri+Lake,+Kelgeri,+Dharwad,+Karnataka+580007&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
