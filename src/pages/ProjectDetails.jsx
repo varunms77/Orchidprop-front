@@ -129,14 +129,14 @@ const projectsData = {
     name: "Balaji Nagar",
     tagline: "Vibrant Community Living",
     logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuDVvXMmZBJu_20QvCxuWFI4OOeZQD5O4J3-MZCZRH9VZfLdp0Mg6vvaLpLGDBz1y1k3KE94nlHuM9QvaDWfxHupVrvEoXeI5xMeP8wWittkrgSpcMCC-TJCXzMnO8zi_2MA0tZpmOKoq9qrsNprNdl5tHDhBhaUSLMZ5ibVrUAqw0QRwtpb8tJqcxNRI9HZDQruloYIcgGh88U1n2btA6gfDFYquMf1CyMfvNwFFyox2g25ZKEeHnlQGTXRac6pfHW3Mrs",
-    heroImage: "/projects/balaji_nagar.jpg",
+    heroImage: "/projects/b3.jpg",
     videoImage: "/projects/balaji_nagar.jpg",
     heroDesc: "Crafted to elevate everyday living with modern amenities, peaceful surroundings, and excellent connectivity.",
     desc: "Balaji Nagar stands as a symbol of thoughtful planning and enduring quality. Nestled in a fast-developing location, this premium residential layout offers legally approved plots, modern infrastructure, and a welcoming environment that inspires comfortable living and lasting value.",
     approval: "HDUDA Approved",
     sizes: "1200 - 1500 sqft",
     amenities: [
-      { icon: "road", label: "Wide Bitumen Roads", desc: "40ft and 30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
+      { icon: "road", label: "Wide Bitumen Roads", desc: "30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
       { icon: "water_drop", label: "24/7 Water Supply", desc: "Dedicated overhead water tanks and deep borewells ensuring uninterrupted supply to every plot." },
       { icon: "bolt", label: "Electricity", desc: "Underground cabling for an obstruction-free sky and consistent power distribution." },
       { icon: "nature_people", label: "Green Parks", desc: "Lush landscaped parks and children's play areas integrated into the layout design." },
@@ -150,8 +150,11 @@ const projectsData = {
     ],
     mapUrl: "https://maps.google.com/maps?q=Balaji+Nagar,+Orchid+Properties,+Dharwad+-+Haliyal+Rd,+Hubballi,+Karnataka+580007&t=&z=14&ie=UTF8&iwloc=&output=embed",
     gallery: [
-      "/projects/balaji_nagar.jpg",
-      "/projects/balaji_nagar.jpg"
+      "/projects/b1.jpg",
+      "/projects/b2.jpg",
+      "/projects/b3.jpg",
+      "/projects/b4.jpg"
+
     ]
   },
   kanakgiri_park: {
