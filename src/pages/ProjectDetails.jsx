@@ -29,6 +29,7 @@ const projectsData = {
     ],
     mapUrl: "https://maps.google.com/maps?q=Wild+Woods,+Murakatti,+Dharwad+-+Haliyal+Rd,+Dharwad,+Karnataka+580118&t=&z=14&ie=UTF8&iwloc=&output=embed",
     proximityDesc: "Wild Woods offers the perfect balance of peaceful countryside living and convenient access to the city's key destinations, keeping you connected while surrounded by nature.",
+    ctaDesc: "Limited farm villa plots available. Schedule a private site visit today and experience the tranquility of nature firsthand.",
     heroDesc: "Luxury Farm Villas crafted for serene living, expansive open spaces, and a perfect blend of nature and comfort.",
     gallery: [
       "/projects/wild_woods.jpg",
@@ -45,6 +46,7 @@ const projectsData = {
     heroImage: "https://lh3.googleusercontent.com/aida-public/AB6AXuD6zKyoQyFG8SQQai4C6bRwe6POYKzxTez5NF6SMpqvA6uJgumt3V1nmfWKkCH30snEFVAIiC5uK4Y8m3Szr-5twxssrd3H_hdy69-4n1AR8EzmvjbvsWT2wUkRnAT8v-s3ee4qSd0IuCxx2_sF89Gq4w2NtFJ9KEKb6XDmwcW4WCCpPTnPRs5bZZRHlY2_kYUdERL5cYl7_B4D05poArIBzt3wpRmX8WIqRFP_ww4WZT9mKOSnn7OZravNnbbW7h-SRZ4",
     videoImage: "https://lh3.googleusercontent.com/aida-public/AB6AXuAyzts4jBllCyEFzi-hNkk0mUL1ahIeDyYNlt9Gr6EtAPeOHbnjIMykn6OSSNPf8edDeM_B1Om6fC8-ARWeV8jB5MAJ7DFOfGEWyV7t7tbBLgw7Ch9uhJxs9b14yegeauc8qBYI_HkGFuiXWVtYcw7o3KzbMsbCZ1kkoDNaERjtARLYqVs634g1V-Kl6KB7X-S1jofEgxUwupHJ_RPQu-kZvO1K7RtSyj3l_ChXjXa4VoN99ZJ8cVGOmA",
     desc: "Hans Garden is where business meets opportunity. Strategically positioned to maximize visibility and accessibility, this premium commercial destination is designed for entrepreneurs, retailers, and investors seeking a location that drives growth, attracts customers, and creates long-term value.",
+    ctaDesc: "Limited premium commercial plots available. Schedule a private site visit today and secure your business address.",
     approval: "HDUDA",
     sizes: "5-7 guntas",
     amenities: [
@@ -445,7 +447,7 @@ export default function ProjectDetails() {
                   Secure Your Future at {project.name}
                 </h2>
                 <p className="font-body-lg text-body-lg text-on-surface-variant mb-10">
-                  Limited premium plots available. Schedule a private site visit today and experience the tranquility firsthand.
+                  {project.ctaDesc || "Limited premium plots available. Schedule a private site visit today and experience the tranquility firsthand."}
                 </p>
                 <div className="flex flex-wrap gap-4">
                   {project.brochureUrl ? (
