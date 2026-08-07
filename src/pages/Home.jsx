@@ -319,11 +319,11 @@ export default function Home() {
             <form className="space-y-6" onSubmit={e => e.preventDefault()}>
               <div className="space-y-2">
                 <label className="font-label-md text-xs uppercase tracking-widest text-on-surface-variant">Full Name</label>
-                <input className="w-full bg-transparent border-b border-outline-variant focus:border-secondary py-2 outline-none transition-colors" placeholder="John Doe" type="text" />
+                <input className="w-full bg-transparent border-b border-outline-variant focus:border-secondary py-2 outline-none transition-colors" type="text" />
               </div>
               <div className="space-y-2">
                 <label className="font-label-md text-xs uppercase tracking-widest text-on-surface-variant">Phone Number</label>
-                <input className="w-full bg-transparent border-b border-outline-variant focus:border-secondary py-2 outline-none transition-colors" placeholder="+91 00000 00000" type="tel" />
+                <input className="w-full bg-transparent border-b border-outline-variant focus:border-secondary py-2 outline-none transition-colors" type="tel" />
               </div>
               <button className="w-full bg-secondary text-on-secondary py-4 rounded-xl font-label-md text-label-md uppercase tracking-widest shadow-lg shadow-secondary/20 hover:scale-[1.02] transition-all" type="submit">
                 Get Call Back

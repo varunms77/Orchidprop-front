@@ -43,21 +43,21 @@ export default function Contact() {
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="space-y-2">
                 <label className="font-label-caps text-label-caps text-outline ml-1 block">FULL NAME</label>
-                <input className="w-full bg-white border border-outline-variant rounded-xl px-6 py-4 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all placeholder:text-outline-variant" placeholder="Johnathan Doe" type="text" />
+                <input className="w-full bg-white border border-outline-variant rounded-xl px-6 py-4 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all placeholder:text-outline-variant" type="text" />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="font-label-caps text-label-caps text-outline ml-1 block">EMAIL ADDRESS</label>
-                  <input className="w-full bg-white border border-outline-variant rounded-xl px-6 py-4 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all placeholder:text-outline-variant" placeholder="john@example.com" type="email" />
+                  <input className="w-full bg-white border border-outline-variant rounded-xl px-6 py-4 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all placeholder:text-outline-variant" type="email" />
                 </div>
                 <div className="space-y-2">
                   <label className="font-label-caps text-label-caps text-outline ml-1 block">PHONE NUMBER</label>
-                  <input className="w-full bg-white border border-outline-variant rounded-xl px-6 py-4 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all placeholder:text-outline-variant" placeholder="+91 00000 00000" type="tel" />
+                  <input className="w-full bg-white border border-outline-variant rounded-xl px-6 py-4 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all placeholder:text-outline-variant" type="tel" />
                 </div>
               </div>
               <div className="space-y-2">
                 <label className="font-label-caps text-label-caps text-outline ml-1 block">YOUR MESSAGE</label>
-                <textarea className="w-full bg-white border border-outline-variant rounded-xl px-6 py-4 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all placeholder:text-outline-variant resize-none" placeholder="Tell us about your requirements..." rows="5" />
+                <textarea className="w-full bg-white border border-outline-variant rounded-xl px-6 py-4 focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all placeholder:text-outline-variant resize-none" rows="5" />
               </div>
               <button
                 className={`w-full py-5 rounded-full font-label-md text-label-md uppercase tracking-widest transition-all duration-500 shadow-lg transform hover:-translate-y-1 flex items-center justify-center gap-3 ${
