@@ -127,7 +127,7 @@ export default function About() {
           </div>
           <div className="flex flex-wrap justify-center items-center gap-6 reveal">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/share/17jW3pfvyf/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 px-8 py-5 rounded-[24px] glass-card whisper-shadow hover:bg-primary hover:text-on-primary text-on-surface transition-all duration-300 group"
@@ -144,7 +144,7 @@ export default function About() {
             </a>
 
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/orchidproperties?igsh=c2JsNXlqZnZtcjE5"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 px-8 py-5 rounded-[24px] glass-card whisper-shadow hover:bg-primary hover:text-on-primary text-on-surface transition-all duration-300 group"
@@ -161,7 +161,7 @@ export default function About() {
             </a>
 
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/company/orchidproperties/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 px-8 py-5 rounded-[24px] glass-card whisper-shadow hover:bg-primary hover:text-on-primary text-on-surface transition-all duration-300 group"
@@ -178,7 +178,7 @@ export default function About() {
             </a>
 
             <a
-              href="https://youtube.com"
+              href="https://youtube.com/@orchid.properties?si=9ETB7kS0S4FyfnLa"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 px-8 py-5 rounded-[24px] glass-card whisper-shadow hover:bg-primary hover:text-on-primary text-on-surface transition-all duration-300 group"
