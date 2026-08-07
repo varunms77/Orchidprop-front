@@ -47,7 +47,7 @@ const projectsData = {
     approval: "HDUDA",
     sizes: "1200 - 4000 sqft",
     amenities: [
-      { icon: "road", label: "Wide Bitumen Roads", desc: "40ft and 30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
+      { icon: "road", label: "Wide Bitumen Roads", desc: "30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
       { icon: "water_drop", label: "24/7 Water Supply", desc: "Dedicated overhead water tanks and deep borewells ensuring uninterrupted supply to every plot." },
       { icon: "bolt", label: "Electricity", desc: "Underground cabling for an obstruction-free sky and consistent power distribution." },
       { icon: "nature_people", label: "Green Parks", desc: "Lush landscaped parks and children's play areas integrated into the layout design." },
@@ -75,7 +75,7 @@ const projectsData = {
     approval: "HDUDA Approved",
     sizes: "1200 - 3000 sqft",
     amenities: [
-      { icon: "road", label: "Wide Bitumen Roads", desc: "40ft and 30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
+      { icon: "road", label: "Wide Bitumen Roads", desc: "30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
       { icon: "water_drop", label: "24/7 Water Supply", desc: "Dedicated overhead water tanks and deep borewells ensuring uninterrupted supply to every plot." },
       { icon: "bolt", label: "Electricity", desc: "Underground cabling for an obstruction-free sky and consistent power distribution." },
       { icon: "nature_people", label: "Green Parks", desc: "Lush landscaped parks and children's play areas integrated into the layout design." },
@@ -168,7 +168,7 @@ const projectsData = {
     approval: "HDUDA Approved",
     sizes: "1200 - 4000 sqft",
     amenities: [
-      { icon: "road", label: "Wide Bitumen Roads", desc: "40ft and 30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
+      { icon: "road", label: "Wide Bitumen Roads", desc: "30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
       { icon: "water_drop", label: "24/7 Water Supply", desc: "Dedicated overhead water tanks and deep borewells ensuring uninterrupted supply to every plot." },
       { icon: "bolt", label: "Electricity", desc: "Underground cabling for an obstruction-free sky and consistent power distribution." },
       { icon: "nature_people", label: "Green Parks", desc: "Lush landscaped parks and children's play areas integrated into the layout design." },
@@ -201,7 +201,7 @@ const projectsData = {
     approval: "HDUDA Approval ",
     sizes: "1200 - 3600 sqft",
     amenities: [
-      { icon: "road", label: "Wide Bitumen Roads", desc: "40ft and 30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
+      { icon: "road", label: "Wide Bitumen Roads", desc: "30ft wide well-paved roads throughout the community ensuring seamless movement and aesthetic appeal." },
       { icon: "water_drop", label: "24/7 Water Supply", desc: "Dedicated overhead water tanks and deep borewells ensuring uninterrupted supply to every plot." },
       { icon: "bolt", label: "Electricity", desc: "Underground cabling for an obstruction-free sky and consistent power distribution." },
       { icon: "nature_people", label: "Green Parks", desc: "Lush landscaped parks and children's play areas integrated into the layout design." },
