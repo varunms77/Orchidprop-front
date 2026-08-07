@@ -99,7 +99,7 @@ const projectsData = {
     logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuA-agIoqyATWJ741khXW0GFaoSGQdOMkONVCQu4wUhtN8cGy2VCxveybqao2Zy5i0XaFEaSe2TszxPZmGEcVR-loT7XedRAJPSjydoAoOI46CaHPXI_Ktr3E47poyNqIJWccVyOBcWjvhIqfaFITMyfB7QBE50AkObn_dXF-poZoPZKhVO6nadmfRu25QUgdVW_nb-y7_GS4pAyKQzoEfGppljCMTF4lewRyqEOpIyRSyd6hibhrzUMGM3_ESLampM8xhE",
     heroImage: "/projects/balaji_layout.jpg",
     videoImage: "/projects/balaji_layout.jpg",
-    videoUrl: "/projects/balaji_layout.mp4",
+    videoUrl: "https://www.youtube.com/embed/nXfb26Gwlgo?autoplay=1",
     desc: "Balaji Layout is meticulously planned to represent comfort, security, and legacy. Set in a fast-appreciating corridor, this project has been built to exceed standard specifications. With dedicated services and top-grade concrete details, this neighborhood guarantees a reliable and robust investment for you and your family.",
     approval: "HDUDA Approved",
     sizes: "1200 - 2400 sqft",
