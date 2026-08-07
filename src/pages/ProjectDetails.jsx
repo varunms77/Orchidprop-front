@@ -160,8 +160,8 @@ const projectsData = {
     logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuBFYQYwERiiFrk7FUJm55cvATYc37eYLWO9PRq3Cg6Sm_6bugqDhf_ZVtZVmi458-1JACTK0gEtOLXmP-l_hw3u_q0FxKhTaTRUHNPOZ17gSCtsFdkqS4kHJ2qctM7Resn25AHPwfNva3wr6voKhAbzXQaxGHj9B3oNWIyFSdIJWwzZ5oOfwzOLF_iSP91YmSl-fyVCIkiyK-3SNlNlHksPDig4LthwIETH9jYxgAhgBVJaeVuAikSZ2C5zIVznspwMEho",
     heroImage: "/projects/kanakgiri_park.jpg",
     videoImage: "/projects/kanakgiri_park.jpg",
-    heroDesc: "A premium destination offering well-planned plots, lush surroundings, and exceptional connectivity.",
-    desc: "A premium destination offering well-planned plots, lush surroundings, and exceptional connectivity.",
+    heroDesc: "Kanakagiri Park is meticulously planned to represent comfort, connectivity, and long-term value. Situated in a rapidly growing location, this premium residential layout is designed to exceed modern living expectations. With quality infrastructure, legally approved plots, and excellent access to key destinations, it offers a secure and rewarding investment for you and your family.",
+    desc: "Kanakagiri Park is meticulously planned to represent comfort, connectivity, and long-term value. Situated in a rapidly growing location, this premium residential layout is designed to exceed modern living expectations. With quality infrastructure, legally approved plots, and excellent access to key destinations, it offers a secure and rewarding investment for you and your family.",
     approval: "HDUDA Approved",
     sizes: "1200 - 4000 sqft",
     amenities: [
