@@ -32,31 +32,31 @@ export default function About() {
 
       <main className="pt-[80px]">
         {/* Hero Section */}
-        <section className="relative min-h-[580px] h-[80vh] md:h-[819px] flex items-center overflow-hidden">
+        <section className="relative min-h-[560px] h-[75vh] md:h-[819px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <video
               autoPlay
               loop
               muted
               playsInline
-              className="w-full h-full object-cover object-center opacity-60 md:opacity-100"
+              className="w-full h-full object-cover object-center opacity-85 md:opacity-100"
             >
               <source src={HERO_VIDEO} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             {/* Desktop gradient: left-to-right fade */}
             <div className="hidden md:block absolute inset-0 bg-gradient-to-r from-background via-background/50 to-transparent"></div>
-            {/* Mobile overlay: elegant semi-transparent surface overlay so video motion is visible while keeping hero text clean and clear */}
-            <div className="block md:hidden absolute inset-0 bg-gradient-to-b from-background/85 via-background/75 to-background/90 backdrop-blur-[1px]"></div>
+            {/* Mobile gradient: bright, clean gradient fade from left/bottom for maximum video brightness and text clarity */}
+            <div className="block md:hidden absolute inset-0 bg-gradient-to-r from-background/90 via-background/60 to-transparent"></div>
           </div>
-          <div className="relative z-10 max-w-container-max mx-auto px-6 md:px-margin-desktop w-full reveal active py-10 md:py-0">
+          <div className="relative z-10 max-w-container-max mx-auto px-6 md:px-margin-desktop w-full reveal active py-8 md:py-0">
             <div className="max-w-2xl">
               <span className="font-label-caps text-label-caps text-primary tracking-widest uppercase mb-3 md:mb-4 block">Legacy of Excellence</span>
               <h1 className="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-background mb-6 md:mb-8 leading-tight break-words">
                 Crafting the <br/><span className="text-primary italic">Luxury of Space</span>
               </h1>
               <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-8 md:mb-10 max-w-xl">
-                A trusted leader specializing exclusively in premium residential land and plots, where every square foot is a foundation for your future legacy.
+                A trusted leader specializing in premium real estate developments, where every square foot is a foundation for your future legacy.
               </p>
               <div className="flex flex-wrap gap-6">
                 <Link to="/#projects" className="bg-primary text-on-primary px-8 md:px-10 py-3.5 md:py-4 rounded-[20px] font-body-md text-body-md hover:opacity-90 transition-all whisper-shadow shadow-primary/20">
